@@ -1,0 +1,250 @@
+{
+  "site": {
+    "titre": "Veille Créative",
+    "sous_titre": "Lead magnets, hooks, angles, créas social ads, tendances marketing et visuelles : une veille de creative strategy, actualisée chaque jour.",
+    "formulaire_soumission": ""
+  },
+
+  "secteur": "creative strategy pour la publicité sur les réseaux sociaux (Meta, TikTok, Instagram, Pinterest, Snapchat, YouTube Shorts) : hooks, angles, concepts créatifs, formats (statiques, vidéo, UGC, motion), scripts, briefs créatifs, creative testing, copywriting publicitaire, inspiration de campagnes, tendances marketing et social media, tendances visuelles et design (couleurs, typographies, esthétiques, direction artistique) et nouveautés des plateformes publicitaires. Veille francophone : les contenus en français sont prioritaires, l'anglais vient en complément",
+
+  "categories": [
+    "Hooks & accroches",
+    "Angles & concepts",
+    "Créas & formats pub",
+    "UGC & vidéo",
+    "Stratégie créative & briefs",
+    "Copywriting",
+    "Tendances marketing & social",
+    "Tendances visuelles",
+    "Nouveautés plateformes",
+    "Inspiration & campagnes",
+    "IA & outils",
+    "Autre"
+  ],
+
+  "priorite_francais": 0.75,
+  "pays_recherche_fr": "france",
+  "pertinence_min": 6,
+  "pertinence_min_autres_langues": 7,
+
+  "recherche": {
+    "requetes_par_jour": 12,
+    "domaines_cibles": [
+      "notion.site",
+      "notion.so",
+      "gumroad.com",
+      "substack.com",
+      "beehiiv.com",
+      "framer.website",
+      "framer.app",
+      "gamma.app",
+      "docs.google.com",
+      "figma.com"
+    ],
+    "fr": {
+      "formats": [
+        "template gratuit",
+        "guide gratuit",
+        "swipe file",
+        "checklist",
+        "bibliothèque",
+        "exemples",
+        "modèle",
+        "kit gratuit",
+        "PDF gratuit",
+        "Notion gratuit"
+      ],
+      "sujets": [
+        "hooks publicitaires",
+        "hooks vidéo",
+        "accroches publicitaires",
+        "angles marketing",
+        "angles publicitaires",
+        "concepts créatifs pub",
+        "publicités statiques",
+        "créas Meta Ads",
+        "créas TikTok Ads",
+        "UGC",
+        "scripts UGC",
+        "vidéo publicitaire",
+        "brief créatif",
+        "stratégie créative",
+        "creative strategy",
+        "creative testing",
+        "copywriting publicitaire",
+        "tendances réseaux sociaux",
+        "tendances marketing",
+        "tendances visuelles",
+        "tendances graphiques",
+        "direction artistique",
+        "moodboard",
+        "persona client",
+        "insights consommateurs",
+        "offres promotionnelles",
+        "landing page",
+        "IA créative",
+        "motion design pub",
+        "social ads"
+      ]
+    },
+    "en": {
+      "formats": ["free template", "swipe file", "playbook", "framework", "cheat sheet"],
+      "sujets": [
+        "ad hooks",
+        "ad angles",
+        "static ads",
+        "UGC ads",
+        "creative strategy",
+        "creative testing",
+        "ad creative",
+        "creative brief",
+        "design trends",
+        "social media trends"
+      ]
+    }
+  },
+
+  "linkedin": {
+    "requetes_par_jour": 6,
+    "fr": {
+      "accroches": [
+        "commente je t'envoie",
+        "commentez je vous envoie",
+        "en commentaire je t'envoie le Notion",
+        "commente pour recevoir le guide",
+        "je partage gratuitement",
+        "commente et je t'envoie le PDF"
+      ],
+      "sujets": [
+        "hooks",
+        "angles",
+        "créas",
+        "UGC",
+        "pubs statiques",
+        "Meta Ads",
+        "TikTok Ads",
+        "stratégie créative",
+        "brief créatif",
+        "tendances",
+        "swipe file",
+        "concepts pub"
+      ]
+    },
+    "en": {
+      "accroches": ["comment and I'll send you", "comment below to get the template"],
+      "sujets": ["hooks", "static ads", "UGC ads", "creative strategy", "swipe file"]
+    }
+  },
+
+  "web_ouvert": {
+    "requetes_par_jour": 6,
+    "periode": "month",
+    "fr": [
+      "rapport tendances marketing {annee_tendances}",
+      "tendances réseaux sociaux {annee_tendances}",
+      "tendances design graphique {annee_tendances}",
+      "tendances visuelles {annee_tendances}",
+      "tendances publicité {annee_tendances}",
+      "tendances couleurs {annee_tendances}",
+      "tendances typographie {annee_tendances}",
+      "tendances consommateurs {annee_tendances}",
+      "tendances UGC {annee_tendances}",
+      "rapport tendances TikTok {annee_tendances}",
+      "nouveaux formats publicitaires réseaux sociaux {annee}",
+      "nouveautés Meta Ads créas {annee}",
+      "benchmark créas Meta Ads {annee}",
+      "hook rate benchmark {annee}",
+      "livre blanc social ads {annee}",
+      "guide gratuit publicité réseaux sociaux {annee}"
+    ],
+    "en": [
+      "social media trends report {annee_tendances}",
+      "visual trends report {annee_tendances}",
+      "creative trends report {annee_tendances}",
+      "TikTok trend report {annee_tendances}",
+      "Pinterest Predicts {annee_tendances}",
+      "creative benchmarks report Meta ads {annee}",
+      "new ad formats Meta TikTok {annee}",
+      "free ad hooks library"
+    ]
+  },
+
+  "exploration_createurs_par_jour": 4,
+  "createurs_a_suivre": {
+    "fr": [
+      "yannlemad.com",
+      "roads.social",
+      "takema-studio.com",
+      "smarketing.agency",
+      "offers.hubspot.fr",
+      "noiise.com",
+      "kickads.eu",
+      "benandvic.com",
+      "moggo.fr",
+      "adesbootcamp.com",
+      "agencexplr.com",
+      "impulsion.com",
+      "the-browz.com",
+      "social-playbook.com",
+      "wearesocial.com"
+    ],
+    "en": [
+      "motionapp.com",
+      "foreplay.co",
+      "ads.tiktok.com",
+      "business.pinterest.com"
+    ]
+  },
+
+  "flux_rss": {
+    "fr": [
+      "https://lareclame.fr/feed",
+      "https://creapills.com/feed",
+      "https://www.cbnews.fr/rss.xml",
+      "https://www.ladn.eu/feed/",
+      "https://www.influencia.net/feed/",
+      "https://www.viuz.com/feed/",
+      "https://www.journaldunet.com/ebusiness/publicite/rss/",
+      "https://www.blogdumoderateur.com/feed/",
+      "https://swello.com/fr/blog/feed",
+      "https://blog.hubspot.fr/marketing/rss.xml",
+      "https://www.webmarketing-com.com/feed",
+      "https://smarketing.agency/feed/",
+      "https://impulsion.com/feed/",
+      "https://dhsdigital.substack.com/feed",
+      "https://wearesocial.com/fr/feed/",
+      "https://www.blogduwebdesign.com/feed",
+      "https://www.grapheine.com/feed",
+      "https://etapes.com/feed",
+      "https://www.admirabledesign.com/feed"
+    ],
+    "en": [
+      "https://www.socialmediatoday.com/feeds/news/",
+      "https://www.creativebloq.com/feeds.xml",
+      "https://ecomcircle.substack.com/feed"
+    ]
+  },
+  "filtre_rss": "pub|campagne|campaign|\\bads?\\b|advert|marque|brand|créa|creative|design|graphi|illustr|identit|visuel|visual|tendance|trend|social|réseaux|tiktok|instagram|meta\\b|facebook|pinterest|snapchat|youtube|linkedin|hook|accroche|angle|ugc|influen|marketing|logo|typo|couleur|colou?r|motion|vidéo|video|packaging|affiche|poster|slogan|storytelling|contenu|content|copywriting|landing",
+  "age_max_rss_jours": 3,
+
+  "url_csv_soumissions": "",
+
+  "domaines_exclus": [
+    "youtube.com",
+    "m.youtube.com",
+    "youtu.be",
+    "wikipedia.org",
+    "fr.wikipedia.org",
+    "en.wikipedia.org",
+    "scribd.com",
+    "tiktok.com",
+    "pinterest.com",
+    "fr.pinterest.com",
+    "instagram.com",
+    "amazon.com",
+    "amazon.fr",
+    "etsy.com"
+  ],
+
+  "max_candidats_par_jour": 150
+}

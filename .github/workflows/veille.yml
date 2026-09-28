@@ -1,0 +1,82 @@
+name: Veille quotidienne
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # tous les jours à 5h UTC (6h ou 7h à Paris)
+  workflow_dispatch: # bouton « Run workflow » pour lancer à la main
+  push: # republie le site quand tu modifies un fichier (sans relancer la veille)
+    branches: [main]
+
+permissions:
+  contents: write # enregistrer les nouvelles ressources
+  pages: write # publier le site
+  id-token: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collecter et trier les nouvelles ressources
+        run: python scripts/veille.py
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+
+      - name: Enregistrer les résultats
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Veille du $(date -u +%Y-%m-%d)"
+          git push
+
+  publier:
+    needs: veille
+    # après la veille, ou directement quand tu modifies le site (la veille est alors sautée)
+    if: always() && (needs.veille.result == 'success' || needs.veille.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: pages
+        name: Vérifier que GitHub Pages est activé
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(gh api "repos/${{ github.repository }}/pages" --jq .build_type 2>/dev/null)" = "workflow" ]; then
+            echo "actif=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::Site pas encore publié : active Settings → Pages → Source « GitHub Actions », puis relance le workflow."
+            echo "actif=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.pages.outputs.actif == 'true'
+        with:
+          ref: main # inclut les ressources que la veille vient d'enregistrer
+
+      - uses: actions/configure-pages@v5
+        if: steps.pages.outputs.actif == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pages.outputs.actif == 'true'
+        with:
+          path: .
+
+      - id: deploiement
+        if: steps.pages.outputs.actif == 'true'
+        uses: actions/deploy-pages@v4

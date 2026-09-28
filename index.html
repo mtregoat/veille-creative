@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Veille Créative</title>
+  <meta name="description" content="Lead magnets, hooks, angles, créas social ads, tendances marketing et visuelles, actualisés chaque jour.">
+  <meta name="theme-color" id="theme-color" content="#ffffff">
+  <!-- Installable sur l'écran d'accueil du téléphone, en plein écran comme une app -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Veille">
+  <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" id="brand" href="./">Veille Créative</a>
+      <div class="topbar-actions">
+        <a id="submit-link" class="btn-pill btn-neon" href="#" target="_blank" rel="noopener" hidden>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+          Proposer
+        </a>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Changer de thème">
+          <svg class="icon i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="icon i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-label">
+      <p class="hero-label" id="hero-label">Dans ta veille</p>
+      <p class="hero-value"><span id="hero-value">–</span> <span class="hero-unit" id="hero-unit">ressources</span></p>
+      <p class="delta flat" id="delta">
+        <span class="delta-pill">
+          <svg class="tri" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1.5 11 10H1z"/></svg>
+          <span id="delta-value"></span>
+        </span>
+        <span class="delta-label" id="delta-label"></span>
+      </p>
+
+      <div class="chart" id="chart" tabindex="0" role="img" aria-label="Évolution de la veille">
+        <svg class="chart-bg" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1">
+              <stop class="fill-top" offset="0" stop-color="#39ff14"/>
+              <stop class="fill-bottom" offset="1" stop-color="#39ff14" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path class="chart-area" id="chart-area" d="" fill="url(#chart-fill)"/>
+          <line class="chart-base" id="chart-base" x1="0" x2="1000" y1="100" y2="100"/>
+        </svg>
+        <svg class="chart-fg" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true">
+          <path class="chart-line" id="chart-line" d=""/>
+        </svg>
+        <span class="chart-scrub" id="chart-scrub" hidden></span>
+        <span class="chart-dot" id="chart-dot"></span>
+      </div>
+
+      <div class="periods" role="group" aria-label="Période du graphique">
+        <button type="button" data-period="1S" aria-pressed="false">1S</button>
+        <button type="button" data-period="1M" aria-pressed="true">1M</button>
+        <button type="button" data-period="3M" aria-pressed="false">3M</button>
+        <button type="button" data-period="1A" aria-pressed="false">1A</button>
+        <button type="button" data-period="Max" aria-pressed="false">Max</button>
+      </div>
+      <p class="updated" id="updated"></p>
+    </section>
+
+    <section class="section" id="bm-section" aria-labelledby="bm-title" hidden>
+      <div class="section-head">
+        <h2 id="bm-title">Mes signets</h2>
+        <button type="button" class="link-btn" id="bm-see-all">Tout voir</button>
+      </div>
+      <div class="carousel" id="bm-list"></div>
+    </section>
+
+    <section class="section" id="news-section" aria-labelledby="news-title" hidden>
+      <div class="section-head">
+        <h2 id="news-title">Nouveautés</h2>
+        <span class="section-meta" id="news-meta"></span>
+      </div>
+      <div class="carousel" id="news"></div>
+    </section>
+
+    <section class="section" aria-labelledby="cats-title">
+      <div class="section-head">
+        <h2 id="cats-title">Catégories</h2>
+      </div>
+      <div class="tiles" id="cats"></div>
+    </section>
+
+    <section class="section" id="list-section" aria-labelledby="list-title">
+      <div class="section-head">
+        <h2 id="list-title">Toutes les ressources</h2>
+        <button type="button" class="link-btn" id="clear-cat" hidden>Tout voir</button>
+      </div>
+
+      <label class="search">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="Hooks, UGC, couleurs…" aria-label="Rechercher une ressource" autocomplete="off">
+      </label>
+
+      <div class="filters">
+        <div class="segmented" role="group" aria-label="Accès" id="access">
+          <button type="button" data-acces="" aria-pressed="true">Tout</button>
+          <button type="button" data-acces="libre" aria-pressed="false">Libre</button>
+          <button type="button" data-acces="email" aria-pressed="false">Email</button>
+          <button type="button" data-acces="commentaire" aria-pressed="false">LinkedIn</button>
+        </div>
+        <div class="segmented" role="group" aria-label="Tri" id="sort">
+          <button type="button" data-sort="recent" aria-pressed="true">Récents</button>
+          <button type="button" data-sort="pertinence" aria-pressed="false">Pertinents</button>
+        </div>
+      </div>
+
+      <div class="list-meta">
+        <p class="count" id="count" aria-live="polite"></p>
+        <div class="toggles">
+          <button type="button" class="toggle" id="toggle-bm" aria-pressed="false">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+            Signets <span class="toggle-count" id="bm-count">0</span>
+          </button>
+          <button type="button" class="toggle" id="toggle-fr" aria-pressed="false">FR uniquement</button>
+        </div>
+      </div>
+      <ul class="rows" id="rows"></ul>
+      <div class="empty" id="empty" hidden>
+        <p id="empty-text">Aucune ressource ne correspond à ta recherche.</p>
+        <button type="button" class="btn-pill" id="reset">Réinitialiser les filtres</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    Mise à jour automatique chaque matin. Les ressources appartiennent à leurs auteurs : ce site ne fait que les référencer.
+  </footer>
+
+  <dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
+    <div class="sheet-inner">
+      <div class="sheet-handle" aria-hidden="true"></div>
+      <button type="button" class="icon-btn sheet-close" id="sheet-close" aria-label="Fermer">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="sheet-head">
+        <span class="avatar avatar-lg" id="sheet-avatar" aria-hidden="true"></span>
+        <p class="sheet-cat"><span id="sheet-cat"></span> <span class="lang" id="sheet-lang" hidden>EN</span></p>
+        <h2 class="sheet-title" id="sheet-title" tabindex="-1" autofocus></h2>
+        <p class="sheet-author" id="sheet-author"></p>
+      </div>
+      <dl class="stats">
+        <div><dt>Pertinence</dt><dd id="sheet-score"></dd></div>
+        <div><dt>Accès</dt><dd id="sheet-access"></dd></div>
+        <div><dt>Ajouté le</dt><dd id="sheet-date"></dd></div>
+      </dl>
+      <p class="sheet-summary" id="sheet-summary"></p>
+      <ul class="tags" id="sheet-tags"></ul>
+      <div class="sheet-actions">
+        <a class="btn-primary" id="sheet-open" href="#" target="_blank" rel="noopener">
+          <span id="sheet-open-label">Ouvrir la ressource</span>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </a>
+        <button type="button" class="btn-save" id="sheet-bm" aria-pressed="false">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+          <span id="sheet-bm-label">Enregistrer</span>
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" popover="manual" role="status" aria-live="polite"></div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
