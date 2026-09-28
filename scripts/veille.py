@@ -50,7 +50,13 @@ CREATORS_FILE = ROOT / "data" / "createurs.json"
 
 TAVILY_KEY = os.environ.get("TAVILY_API_KEY", "").strip()
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "").strip() or "gemini-2.5-flash"
+# Modèles essayés dans l'ordre (tous gratuits) : si Google en refuse un pour cette clé, on passe au suivant.
+# La variable GEMINI_MODEL (facultative) permet d'imposer un modèle en premier.
+GEMINI_MODELS = list(dict.fromkeys(m for m in [
+    os.environ.get("GEMINI_MODEL", "").strip(),
+    "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-3.8-flash", "gemini-2.5-flash",
+] if m))
+_gemini = {"i": 0}  # index du modèle en cours d'utilisation
 
 DRY_RUN = "--dry-run" in sys.argv
 NOW = datetime.now(timezone.utc)
@@ -478,22 +484,32 @@ def classify_gemini(batch):
     prompt = GEMINI_PROMPT.format(secteur=CONFIG["secteur"],
                                   categories=json.dumps(CONFIG["categories"], ensure_ascii=False),
                                   candidats="\n".join(lines))
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
     payload = {"contents": [{"parts": [{"text": prompt}]}],
                "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
-    for attempt in range(3):
+    retries = 0
+    while _gemini["i"] < len(GEMINI_MODELS):
+        model = GEMINI_MODELS[_gemini["i"]]
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         try:
             res = json.loads(http(url, payload, {"x-goog-api-key": GEMINI_KEY}, timeout=120))
-            text = res["candidates"][0]["content"]["parts"][0]["text"]
+            parts = res["candidates"][0]["content"]["parts"]
+            text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
             return {int(r["index"]): r for r in json.loads(text) if "index" in r}
         except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 503) and attempt < 2:  # quota/minute ou surcharge : on réessaie
+            body = e.read()[:300]
+            if e.code in (429, 500, 503) and retries < 2:  # quota/minute ou surcharge : on patiente
+                retries += 1
                 time.sleep(30)
                 continue
-            log(f"  ! Gemini HTTP {e.code} : {e.read()[:200]!r}")
+            if e.code in (400, 403, 404, 429) and _gemini["i"] + 1 < len(GEMINI_MODELS):
+                log(f"  ! Gemini {model} refusé (HTTP {e.code}), essai avec {GEMINI_MODELS[_gemini['i'] + 1]}")
+                _gemini["i"] += 1
+                retries = 0
+                continue
+            log(f"  ! Gemini {model} HTTP {e.code} : {body!r}")
         except (urllib.error.URLError, TimeoutError, KeyError, IndexError, ValueError, TypeError) as e:
-            log(f"  ! Gemini : {e}")
-        break
+            log(f"  ! Gemini {model} : {e}")
+        return None
     return None
 
 
@@ -627,7 +643,7 @@ def main():
     en_budget = min(budget - len(candidates), max(3, math.ceil(len(candidates) * (1 - p) / p)))
     candidates += dedupe(en, known | {c["cle"] for c in candidates}, en_budget)
     log(f"· {len(candidates)} nouveaux candidats à trier "
-        f"({'Gemini ' + GEMINI_MODEL if GEMINI_KEY else 'mots-clés'})")
+        f"({'Gemini ' + GEMINI_MODELS[0] if GEMINI_KEY else 'mots-clés'})")
     results = classify(candidates, seen)
 
     # Boule de neige : les pages retenues renvoient souvent vers d'autres ressources du même auteur

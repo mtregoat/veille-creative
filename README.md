@@ -151,6 +151,6 @@ Le premier teste la collecte sans rien enregistrer. Le second affiche le site su
 
 ## À savoir
 - Les paliers gratuits de Tavily et Gemini peuvent évoluer : vérifie les quotas sur leurs sites.
-- Si l'API répond « modèle introuvable », crée une variable (pas un secret) `GEMINI_MODEL` dans **Settings → Secrets and variables → Actions → Variables**, avec le nom d'un modèle Gemini gratuit actuel.
+- Le robot essaie plusieurs modèles Gemini gratuits (3.5 Flash, 3.5 Flash-Lite, 3.8 Flash…) et passe au suivant si Google en refuse un. Pour en imposer un, crée une variable (pas un secret) `GEMINI_MODEL` dans **Settings → Secrets and variables → Actions → Variables**.
 - La lecture des pages Notion passe par l'API interne de notion.site. Elle n'est pas officielle et peut changer : dans ce cas, le robot se contente du titre et de l'extrait.
 - Le site ne fait que référencer les ressources avec un lien : il ne copie pas leur contenu.
