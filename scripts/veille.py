@@ -186,6 +186,25 @@ def interleave(*groups):
     return out
 
 
+STOP_WORDS = {"le", "la", "les", "des", "du", "de", "d", "l", "un", "une", "et", "en", "pour", "vos", "votre",
+               "à", "a", "au", "aux", "sur", "dans", "the", "and", "for", "of", "to", "in", "your", "with"}
+
+
+def title_words(title):
+    return {w for w in re.findall(r"\w+", norm_text(title)) if w not in STOP_WORDS}
+
+
+def norm_text(s):
+    return unicodedata.normalize("NFKD", s.lower()).encode("ascii", "ignore").decode()
+
+
+def similar(a, b, threshold=0.6):
+    """Deux titres sont des quasi-doublons s'ils partagent au moins 60 % de leurs mots significatifs."""
+    if len(a) < 4 or len(b) < 4:
+        return False
+    return len(a & b) / len(a | b) >= threshold
+
+
 def split_fr_en(n):
     """Répartit n requêtes : la part française d'abord (arrondie au-dessus), le reste en anglais."""
     n_fr = min(n, math.ceil(n * CONFIG.get("priorite_francais", 0.75)))
@@ -454,7 +473,15 @@ On RETIENT :
 On ÉCARTE : actus business (levées de fonds, rachats, nominations, résultats financiers), actus
 générales ou politiques, tests de matériel, comparatifs d'outils sans lien avec la création
 publicitaire, pages d'accueil, pages de services ou de tarifs, offres payantes, templates de
-productivité génériques, pages de connexion ou d'erreur, contenus trop pauvres pour être utiles.
+productivité génériques, pages de connexion ou d'erreur, contenus trop pauvres pour être utiles,
+annonces d'événements ou de webinaires sans contenu, et posts qui ne font que relayer une ressource
+(garde la source originale).
+
+IA : écarte les contenus IA génériques (productivité, astuces ChatGPT/Claude, tops d'outils IA,
+prompts pour d'autres métiers, actus d'entreprises tech). « IA & outils » est réservé aux outils et
+méthodes qui servent à PRODUIRE des créas publicitaires (visuels, vidéos, hooks, scripts, copy).
+Tendances de consommation d'un secteur précis (alimentation, beauté, tech…) : 7/10 maximum, et
+seulement si elles donnent des insights exploitables pour des angles publicitaires.
 
 LANGUE : la veille est francophone. Les contenus en français sont prioritaires : à qualité égale,
 donne 1 point de pertinence de plus à un contenu en français. Un contenu en anglais ne vaut la peine
@@ -658,8 +685,18 @@ def main():
         log(f"· Boule de neige : {len(extra)} liens trouvés dans les éléments retenus")
         results += classify(extra, seen)
 
-    added = sorted((item for item, _ in results),
-                   key=lambda i: (i["langue"] != "fr", -i["pertinence"]))
+    ranked = sorted((item for item, _ in results),
+                    key=lambda i: (i["langue"] != "fr", -i["pertinence"]))
+    # Écarte les quasi-doublons (même ressource relayée par un post, une autre page…)
+    kept_titles = [title_words(i["titre"]) for i in db["items"]]
+    added = []
+    for item in ranked:
+        words = title_words(item["titre"])
+        if any(similar(words, other) for other in kept_titles):
+            log(f"  = doublon écarté : {item['titre']}")
+            continue
+        kept_titles.append(words)
+        added.append(item)
     for item in added:
         if is_creator_host(item["domaine"], rss_hosts):
             creators.setdefault(item["domaine"], "")

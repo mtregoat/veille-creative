@@ -24,8 +24,8 @@
 
   "priorite_francais": 0.75,
   "pays_recherche_fr": "france",
-  "pertinence_min": 6,
-  "pertinence_min_autres_langues": 7,
+  "pertinence_min": 7,
+  "pertinence_min_autres_langues": 8,
 
   "recherche": {
     "requetes_par_jour": 12,
@@ -82,7 +82,7 @@
         "insights consommateurs",
         "offres promotionnelles",
         "landing page",
-        "IA créative",
+        "IA pour créas publicitaires",
         "motion design pub",
         "social ads"
       ]
