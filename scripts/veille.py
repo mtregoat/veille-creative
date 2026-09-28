@@ -425,11 +425,35 @@ def enrich_notion(c):
 
 META = r'<meta[^>]+(?:property|name)=["\']{}["\'][^>]+content=["\']([^"\']*)["\']'
 
+# Contenus réservés aux abonnés payants : illisibles, donc écartés
+NOT_FREE = re.compile(r'"isAccessibleForFree"\s*:\s*"?false"?', re.I)  # balise standard des sites à paywall
+PAID_SUBSTACK = re.compile(r'\\?"audience\\?"\s*:\s*\\?"(only_paid|founding)', re.I)
+PAYWALL_PHRASES = re.compile(
+    r"cet article est réservé aux abonnés|article réservé aux abonnés|contenu réservé aux abonnés|"
+    r"réservée? aux abonnés payants|la suite est réservée|pour lire la suite de cet article|"
+    r"this post is for paid subscribers|this post is for paying subscribers|"
+    r"subscribe to continue reading|réservé aux membres", re.I)
+
+
+def is_paywalled(raw):
+    return bool(NOT_FREE.search(raw) or PAID_SUBSTACK.search(raw) or PAYWALL_PHRASES.search(raw))
+
+
+def substack_is_paid(url):
+    """Substack indique dans son API si un article est réservé aux abonnés payants."""
+    p = urlparse(url)
+    if not (p.netloc.endswith("substack.com") and "/p/" in p.path):
+        return False
+    slug = p.path.split("/p/", 1)[1].strip("/")
+    meta = json.loads(http(f"https://{p.netloc}/api/v1/posts/{slug}", timeout=12))
+    return meta.get("audience") not in (None, "everyone")
+
 
 def enrich_html(c):
     if urlparse(c["url"]).path.lower().endswith(".pdf"):
         return  # PDF : on garde le titre et l'extrait du moteur de recherche
     raw = http(c["url"], timeout=12, max_bytes=800_000).decode("utf-8", "ignore")
+    c["payant"] = is_paywalled(raw) or substack_is_paid(c["url"])
     grab = lambda pat: (re.search(pat, raw, re.I | re.S) or [None, ""])[1]
     title = grab(META.format("og:title")) or grab(r"<title[^>]*>(.*?)</title>")
     desc = grab(META.format("og:description")) or grab(META.format("description"))
@@ -456,39 +480,27 @@ def enrich(c):
 
 GEMINI_PROMPT = """Tu fais la veille d'un·e creative strategist. Son périmètre : {secteur}.
 
-Pour chaque candidat, décide s'il mérite d'apparaître dans sa veille.
+Cette veille ne publie QUE des LEAD MAGNETS : des ressources gratuites qu'une agence (en priorité),
+un freelance, un outil ou une marque OFFRE pour attirer des prospects, et qu'on peut télécharger,
+dupliquer ou recevoir : guide ou livre blanc, template, swipe file, banque de hooks / d'angles / de
+concepts / de créas, checklist, framework, Notion, PDF, kit, rapport ou étude à télécharger,
+mini-formation. Accès libre, contre un email, ou via un post LinkedIn « commente X et je t'envoie… ».
+C'est surtout ce que publient les AGENCES (social ads, créa, UGC, growth, e-commerce) qui intéresse.
 
-On RETIENT :
-- les ressources gratuites et actionnables : lead magnets (guide, template, swipe file, banque de
-  hooks ou de concepts, checklist, framework, prompts, mini-formation, outil gratuit), en accès libre,
-  contre un email, ou proposées dans un post LinkedIn « commente X et je t'envoie… » ;
-- les contenus de fond directement utilisables : listes de hooks ou d'angles, décryptages de créas,
-  méthodes de brief, de recherche client ou de creative testing ;
-- les rapports et analyses de tendances : marketing, social media, consommateurs, tendances visuelles
-  et design (couleurs, typographies, esthétiques, DA), benchmarks de performance créative ;
-- les nouveautés des plateformes publicitaires qui changent la façon de concevoir les créas
-  (nouveaux formats, fonctionnalités créatives, outils de création) ;
-- les campagnes et pubs remarquables, surtout sur les réseaux sociaux, quand l'idée créative est expliquée.
-
-On ÉCARTE : actus business (levées de fonds, rachats, nominations, résultats financiers), actus
-générales ou politiques, tests de matériel, comparatifs d'outils sans lien avec la création
-publicitaire, pages d'accueil, pages de services ou de tarifs, offres payantes, templates de
-productivité génériques, pages de connexion ou d'erreur, contenus trop pauvres pour être utiles,
-annonces d'événements ou de webinaires sans contenu, et posts qui ne font que relayer une ressource
-(garde la source originale).
-
-IA : écarte les contenus IA génériques (productivité, astuces ChatGPT/Claude, tops d'outils IA,
-prompts pour d'autres métiers, actus d'entreprises tech). « IA & outils » est réservé aux outils et
-méthodes qui servent à PRODUIRE des créas publicitaires (visuels, vidéos, hooks, scripts, copy).
-Tendances de consommation d'un secteur précis (alimentation, beauté, tech…) : 7/10 maximum, et
-seulement si elles donnent des insights exploitables pour des angles publicitaires.
+On ÉCARTE tout le reste, même si c'est intéressant : articles de blog ou de média (même sur les
+hooks, les angles ou les tendances), actualités, posts de newsletter, études de cas, décryptages de
+campagnes, annonces d'événements ou de webinaires, pages d'accueil, de services ou de tarifs,
+formations et offres payantes, contenus réservés aux abonnés, contenus IA génériques, tendances
+d'un secteur sans lien avec la pub (alimentation, tech…), posts qui ne font que relayer une ressource.
+En cas de doute : lead_magnet = false.
 
 LANGUE : la veille est francophone. Les contenus en français sont prioritaires : à qualité égale,
 donne 1 point de pertinence de plus à un contenu en français. Un contenu en anglais ne vaut la peine
 que s'il apporte quelque chose de vraiment utile ou introuvable en français.
 
 Réponds UNIQUEMENT par un tableau JSON, un objet par candidat :
-[{{"index": 0, "retenu": true, "pertinence": 0-10,
+[{{"index": 0, "lead_magnet": true, "retenu": true, "pertinence": 0-10,
+   "type_auteur": "agence" | "freelance" | "outil" | "marque" | "média" | "autre",
    "langue": "fr" | "en" | "autre",
    "titre": "titre clair en français (garde le nom officiel d'un rapport s'il en a un)",
    "resume": "2 phrases max, en français : ce qu'on y trouve et comment s'en servir pour ses créas",
@@ -498,8 +510,9 @@ Réponds UNIQUEMENT par un tableau JSON, un objet par candidat :
    "acces": "libre" | "email" | "commentaire" | "inconnu"}}]
 
 "langue" = la langue du contenu lui-même (pas celle de ton résumé).
-Barème : 9-10 = ressource riche ou tendance majeure à ne pas rater ; 7-8 = utile ; 6 = intéressant ;
-5 ou moins = hors sujet, trop générique ou trop pauvre.
+Barème : 9-10 = lead magnet riche d'une agence, à ne pas rater ; 7-8 = lead magnet utile ;
+6 ou moins = lead magnet pauvre, générique ou hors du périmètre. Un lead magnet d'agence vaut
+1 point de plus qu'un lead magnet d'outil ou de marque à qualité égale.
 
 Candidats :
 {candidats}"""
@@ -592,6 +605,11 @@ def classify(candidates, seen):
     min_other = CONFIG.get("pertinence_min_autres_langues", min_fr + 1)
     with ThreadPoolExecutor(max_workers=8) as pool:
         list(pool.map(enrich, candidates))
+    # Contenus réservés aux abonnés payants : illisibles, écartés sans consommer d'appel à l'IA
+    for c in [c for c in candidates if c.get("payant")]:
+        seen.add(c["cle"])
+        log(f"  - réservé aux abonnés, écarté : {c['url']}")
+    candidates = [c for c in candidates if not c.get("payant")]
     for start in range(0, len(candidates), 10):
         batch = candidates[start:start + 10]
         verdicts = classify_gemini(batch) if GEMINI_KEY else None
@@ -604,8 +622,10 @@ def classify(candidates, seen):
             seen.add(c["cle"])
             lang = v.get("langue") if v.get("langue") in ("fr", "en") else (
                 "autre" if v.get("langue") else c.get("langue_source") or guess_lang(c["titre"]))
-            # Priorité au français : l'anglais (ou autre) doit être mieux noté pour être retenu
-            ok = v.get("retenu") and int(v.get("pertinence") or 0) >= (min_fr if lang == "fr" else min_other)
+            # Uniquement des lead magnets (pas d'articles de média) ; priorité au français :
+            # l'anglais (ou autre) doit être mieux noté pour être retenu
+            ok = (v.get("retenu") and v.get("lead_magnet", True) and v.get("type_auteur") != "média"
+                  and int(v.get("pertinence") or 0) >= (min_fr if lang == "fr" else min_other))
             if c["source"] == "soumission" and v.get("retenu"):
                 ok = True
             if not ok:
@@ -620,6 +640,7 @@ def classify(candidates, seen):
                 "categorie": cat,
                 "tags": [clean_text(t, 40) for t in (v.get("tags") or [])][:5],
                 "auteur": clean_text(v.get("auteur"), 80),
+                "type_auteur": v.get("type_auteur") or "",
                 "domaine": host_of(c["url"]),
                 "langue": lang,
                 "acces": acces,
