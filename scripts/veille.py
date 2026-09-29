@@ -148,8 +148,16 @@ def clean_text(s, limit=600):
 
 
 def excluded(url):
-    # Correspondance exacte : exclure tiktok.com n'exclut pas ads.tiktok.com (rapports TikTok)
-    return host_of(url) in set(CONFIG.get("domaines_exclus", []))
+    """Sites à ignorer. « tiktok.com » exclut seulement ce domaine exact (pas ads.tiktok.com) ;
+    « .facebook.com » (avec un point devant) exclut le domaine et tous ses sous-domaines."""
+    host = host_of(url)
+    for d in CONFIG.get("domaines_exclus", []):
+        if host == d or (d.startswith(".") and (host == d[1:] or host.endswith(d))):
+            return True
+    # LinkedIn : seuls les posts et articles sont utiles, pas les profils ni les pages d'entreprise
+    if host.endswith("linkedin.com"):
+        return not re.match(r"/(posts|pulse|feed/update)/", urlparse(url).path)
+    return False
 
 
 def is_creator_host(host, rss_hosts):
@@ -445,8 +453,19 @@ def substack_is_paid(url):
     if not (p.netloc.endswith("substack.com") and "/p/" in p.path):
         return False
     slug = p.path.split("/p/", 1)[1].strip("/")
-    meta = json.loads(http(f"https://{p.netloc}/api/v1/posts/{slug}", timeout=12))
+    try:
+        meta = json.loads(http(f"https://{p.netloc}/api/v1/posts/{slug}", timeout=12))
+    except Exception:
+        return False  # API indisponible : on se fie au contenu de la page
     return meta.get("audience") not in (None, "everyone")
+
+
+# Pages vides : site en construction, domaine parqué, page d'erreur de l'hébergeur (OVH…)
+PLACEHOLDER_TITLE = re.compile(
+    r"site en construction|en cours de construction|domain(e)? (is )?(parked|for sale|à vendre)|"
+    r"this domain (is|has been) registered|coming soon|index of /|page (introuvable|not found)|"
+    r"\b404\b.{0,20}(not found|introuvable)|(erreur|error)\s*(404|410|500|502|503)|"
+    r"service unavailable|internal server error|ovhcloud|\bovh\b", re.I)
 
 
 def enrich_html(c):
@@ -455,6 +474,8 @@ def enrich_html(c):
     raw = http(c["url"], timeout=12, max_bytes=800_000).decode("utf-8", "ignore")
     c["payant"] = is_paywalled(raw) or substack_is_paid(c["url"])
     grab = lambda pat: (re.search(pat, raw, re.I | re.S) or [None, ""])[1]
+    if PLACEHOLDER_TITLE.search(clean_text(grab(r"<title[^>]*>(.*?)</title>"), 200)):
+        c["mort"] = "définitif"  # page vide ou d'erreur : rien à lire
     title = grab(META.format("og:title")) or grab(r"<title[^>]*>(.*?)</title>")
     desc = grab(META.format("og:description")) or grab(META.format("description"))
     body = re.sub(r"<(script|style|noscript|svg|nav|footer)[^>]*>.*?</\1>", " ", raw, flags=re.I | re.S)
@@ -472,7 +493,16 @@ def enrich(c):
             enrich_notion(c)
         else:
             enrich_html(c)
-    except Exception as e:  # une page qui ne répond pas ne doit pas bloquer la veille
+    except urllib.error.HTTPError as e:
+        c["erreur"] = f"HTTP {e.code}"
+        if e.code in (400, 404, 410):
+            c["mort"] = "définitif"  # page supprimée ou inexistante
+        elif e.code >= 500:
+            c["mort"] = "temporaire"  # site en panne : on réessaiera demain
+        # 401/403/429 : le site bloque les robots mais s'ouvre normalement pour un humain
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        c["erreur"], c["mort"] = str(e)[:120], "temporaire"  # DNS, connexion, certificat…
+    except Exception as e:  # une page illisible ne doit pas bloquer la veille
         c["erreur"] = str(e)[:120]
 
 
@@ -491,7 +521,11 @@ On ÉCARTE tout le reste, même si c'est intéressant : articles de blog ou de m
 hooks, les angles ou les tendances), actualités, posts de newsletter, études de cas, décryptages de
 campagnes, annonces d'événements ou de webinaires, pages d'accueil, de services ou de tarifs,
 formations et offres payantes, contenus réservés aux abonnés, contenus IA génériques, tendances
-d'un secteur sans lien avec la pub (alimentation, tech…), posts qui ne font que relayer une ressource.
+d'un secteur sans lien avec la pub (alimentation, tech…), posts qui ne font que relayer une ressource,
+posts de groupes Facebook, profils LinkedIn.
+HORS PÉRIMÈTRE même si c'est un lead magnet : logistique et livraison, e-commerce international,
+RH et formation d'équipes, finance et comptabilité, SEO, automatisation (n8n, agents IA, MCP), CRM,
+développement web. Le lead magnet doit servir à concevoir ou tester des publicités sur les réseaux.
 En cas de doute : lead_magnet = false.
 
 LANGUE : la veille est francophone. Les contenus en français sont prioritaires : à qualité égale,
@@ -605,11 +639,15 @@ def classify(candidates, seen):
     min_other = CONFIG.get("pertinence_min_autres_langues", min_fr + 1)
     with ThreadPoolExecutor(max_workers=8) as pool:
         list(pool.map(enrich, candidates))
-    # Contenus réservés aux abonnés payants : illisibles, écartés sans consommer d'appel à l'IA
+    # Contenus payants ou liens morts : illisibles, écartés sans consommer d'appel à l'IA
     for c in [c for c in candidates if c.get("payant")]:
         seen.add(c["cle"])
         log(f"  - réservé aux abonnés, écarté : {c['url']}")
-    candidates = [c for c in candidates if not c.get("payant")]
+    for c in [c for c in candidates if c.get("mort") and not c.get("payant")]:
+        if c["mort"] == "définitif":
+            seen.add(c["cle"])  # un site simplement en panne sera retenté demain
+        log(f"  - lien qui ne s'ouvre pas ({c.get('erreur') or 'page vide'}), écarté : {c['url']}")
+    candidates = [c for c in candidates if not c.get("payant") and not c.get("mort")]
     for start in range(0, len(candidates), 10):
         batch = candidates[start:start + 10]
         verdicts = classify_gemini(batch) if GEMINI_KEY else None
