@@ -2,7 +2,9 @@ name: Veille quotidienne
 
 on:
   schedule:
-    - cron: "0 5 * * *" # tous les jours à 5h UTC (6h ou 7h à Paris)
+    # tous les jours vers 4h17 UTC (5h17 ou 6h17 à Paris) : GitHub lance souvent ces tâches avec
+    # du retard, surtout aux heures pile ; une minute « impaire » et plus tôt = prêt au réveil
+    - cron: "17 4 * * *"
   workflow_dispatch: # bouton « Run workflow » pour lancer à la main
   push: # republie le site quand tu modifies un fichier (sans relancer la veille)
     branches: [main]
