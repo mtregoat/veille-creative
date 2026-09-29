@@ -2,9 +2,12 @@ name: Veille quotidienne
 
 on:
   schedule:
-    # tous les jours vers 4h17 UTC (5h17 ou 6h17 à Paris) : GitHub lance souvent ces tâches avec
-    # du retard, surtout aux heures pile ; une minute « impaire » et plus tôt = prêt au réveil
+    # Veille vers 4h17 UTC (6h17 à Paris en été). GitHub peut retarder ou même sauter une tâche
+    # programmée quand ses serveurs sont chargés : deux rattrapages sont prévus plus tard, et ils
+    # ne font rien si la veille du jour a déjà eu lieu.
     - cron: "17 4 * * *"
+    - cron: "47 7 * * *"
+    - cron: "17 11 * * *"
   workflow_dispatch: # bouton « Run workflow » pour lancer à la main
   push: # republie le site quand tu modifies un fichier (sans relancer la veille)
     branches: [main]
@@ -23,14 +26,28 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    outputs:
+      deja_faite: ${{ steps.deja.outputs.fait }}
     steps:
       - uses: actions/checkout@v4
 
+      - id: deja
+        name: Veille déjà faite aujourd'hui ?
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && grep -q "\"mis_a_jour_le\": \"$(date -u +%Y-%m-%d)" data/ressources.json; then
+            echo "fait=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Veille déjà faite aujourd'hui : ce rattrapage ne fait rien."
+          else
+            echo "fait=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.deja.outputs.fait != 'true'
         with:
           python-version: "3.12"
 
       - name: Collecter et trier les nouvelles ressources
+        if: steps.deja.outputs.fait != 'true'
         run: python scripts/veille.py
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
@@ -38,6 +55,7 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
 
       - name: Enregistrer les résultats
+        if: steps.deja.outputs.fait != 'true'
         run: |
           git config user.name "veille-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -47,8 +65,11 @@ jobs:
 
   publier:
     needs: veille
-    # après la veille, ou directement quand tu modifies le site (la veille est alors sautée)
-    if: always() && (needs.veille.result == 'success' || needs.veille.result == 'skipped')
+    # après la veille, ou directement quand tu modifies le site (la veille est alors sautée) ;
+    # rien à republier si un rattrapage a trouvé la veille du jour déjà faite
+    if: >-
+      always() && needs.veille.outputs.deja_faite != 'true' &&
+      (needs.veille.result == 'success' || needs.veille.result == 'skipped')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
