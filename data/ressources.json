@@ -1,6 +1,279 @@
 {
   "items": [
     {
+      "id": "bff557739940",
+      "url": "https://www.social-playbook.com/guide-social-ia",
+      "titre": "Guide Social IA : Bibliothèque de hooks",
+      "resume": "Une bibliothèque de hooks validés classés par objectif, plateforme et format pour alimenter vos créations publicitaires. Idéal pour trouver de nouvelles accroches rapidement.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "Hooks",
+        "IA",
+        "Social Media",
+        "Copywriting"
+      ],
+      "auteur": "Social Playbook",
+      "type_auteur": "outil",
+      "domaine": "social-playbook.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "af70a42cc875",
+      "url": "https://www.social-playbook.com/guide-linkedin",
+      "titre": "Guide LinkedIn : Hooks, structure AIDA et CTA",
+      "resume": "Un guide complet pour maîtriser la structure des posts B2B, incluant des techniques de copywriting et des structures de hooks performantes. Utile pour s'inspirer des formats textuels.",
+      "categorie": "Copywriting",
+      "tags": [
+        "LinkedIn",
+        "Copywriting",
+        "Hooks",
+        "CTA"
+      ],
+      "auteur": "Social Playbook",
+      "type_auteur": "outil",
+      "domaine": "social-playbook.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "98315f4c6931",
+      "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_carrousel-veille-cr%C3%A9a-auto-activity-7501608624012677120-zxnF",
+      "titre": "Veille créa auto (Meta & Google Ads)",
+      "resume": "Une ressource de veille publicitaire centrée sur le secteur automobile pour alimenter ses inspirations de créas. Idéal pour repérer de nouveaux angles et formats sur Meta et Google Ads.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "veille créative",
+        "meta ads",
+        "google ads",
+        "publicité automobile"
+      ],
+      "auteur": "Danilo Mura Duchesnes",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "ec2f39b679a6",
+      "url": "https://www.facebook.com/groups/freelance.en.tunisie/posts/3323832027802023",
+      "titre": "Kit complet pour créateur UGC",
+      "resume": "Contient des modèles de devis, factures, contrats et réponses types pour les marques. Utile pour structurer ses collaborations UGC.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "ugc",
+        "contrat",
+        "facture",
+        "freelance"
+      ],
+      "auteur": "Créateur UGC",
+      "type_auteur": "freelance",
+      "domaine": "facebook.com",
+      "langue": "fr",
+      "acces": "inconnu",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "b9f3da988d26",
+      "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_%C3%A0-chaque-pr%C3%A9paration-de-q4-on-refaisait-activity-7503058855921217536-PUb7",
+      "titre": "Calculateur de CAC et budgets Q4",
+      "resume": "Tableur automatisé pour anticiper et calculer les budgets publicitaires et le CAC pour le Q4. Outil pratique pour les media buyers.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "cac",
+        "budget",
+        "q4",
+        "media buying"
+      ],
+      "auteur": "Danilo Duchesnes",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "c2b88eb57cf2",
+      "url": "https://fr.linkedin.com/posts/charles-mesnildrey_nouveau-guide-sur-e-commerce-nation-activity-7504156413359910912-0pQF",
+      "titre": "Guide des tendances e-commerce cross-border",
+      "resume": "Guide publié par Landmark Global sur les grandes tendances du e-commerce international pour nourrir la stratégie e-commerce.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "e-commerce",
+        "tendances",
+        "international",
+        "guide"
+      ],
+      "auteur": "Landmark Global",
+      "type_auteur": "marque",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "cbe1084b4e4f",
+      "url": "https://fr.linkedin.com/posts/landmark-global_la-performance-%C3%A0-linternational-ne-se-joue-activity-7505938379629563904-ou6O",
+      "titre": "Guide des tendances e-commerce international",
+      "resume": "Ressource sur les tendances du e-commerce transfrontalier utile pour adapter les angles publicitaires internationaux.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "e-commerce",
+        "tendances",
+        "cross-border",
+        "guide"
+      ],
+      "auteur": "Landmark Global",
+      "type_auteur": "marque",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "cbfa80897c65",
+      "url": "https://www.spark.do/resources",
+      "titre": "Ressources et livres blancs marketing digital",
+      "resume": "Page de téléchargement regroupant plusieurs livres blancs d'agence sur le tracking, les cookies et les campagnes Performance Max. Utile pour la stratégie data en paid media.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "Paid Media",
+        "Tracking",
+        "Livres blancs",
+        "Stratégie"
+      ],
+      "auteur": "Spark",
+      "type_auteur": "agence",
+      "domaine": "spark.do",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "web",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "1ed9b27811a6",
+      "url": "https://fr.linkedin.com/posts/j%C3%A9r%C3%A9mie-diaz-851b88197_un-constat-tout-b%C3%AAte-tous-le-monde-sait-activity-7500105808437821440-XsV7",
+      "titre": "Skill Google Ads & Meta Ads",
+      "resume": "Un partage de compétences et de frameworks tactiques pour l'optimisation des campagnes Paid Media. Utile pour structurer ses approches de creative testing.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "google ads",
+        "meta ads",
+        "creative strategist",
+        "media buying"
+      ],
+      "auteur": "Jérémie Diaz",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "a1e292494195",
+      "url": "https://tg.linkedin.com/in/amin-mahamoudou-baboaba-iccf2-774484174",
+      "titre": "Kit Agent IA x MCP (Template n8n + Tuto)",
+      "resume": "Offre un template n8n et une vidéo tuto pour automatiser des workflows via IA et MCP en commentant une publication.",
+      "categorie": "IA & outils",
+      "tags": [
+        "ia",
+        "automatisation",
+        "n8n",
+        "template"
+      ],
+      "auteur": "Pierre",
+      "type_auteur": "freelance",
+      "domaine": "tg.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "5f4a92fb95aa",
+      "url": "https://fr.linkedin.com/posts/julian-luneau_former-vos-%C3%A9quipes-%C3%A0-laveugle-est-une-erreur-activity-7509996499464810496-dXKa",
+      "titre": "Guide de formation des équipes",
+      "resume": "Guide sur la formation et l'analyse des compétences, proposé contre un commentaire LinkedIn.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "formation",
+        "management",
+        "guide"
+      ],
+      "auteur": "Julian Luneau",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "cb8653baf5c0",
+      "url": "https://stratscraps.substack.com/api/v1/file/703e4184-a1a7-409f-a83b-6114c57de4c9.pdf",
+      "titre": "How not to Plan: 66 ways to screw it up",
+      "resume": "Un guide au format PDF listant 66 erreurs à éviter en planification stratégique et création publicitaire. Idéal pour affiner sa réflexion stratégique et créative.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "stratégie",
+        "planning",
+        "erreurs",
+        "guide"
+      ],
+      "auteur": "",
+      "type_auteur": "autre",
+      "domaine": "stratscraps.substack.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-09-29"
+    },
+    {
+      "id": "c17498a5f799",
+      "url": "https://www.figma.com/community/file/1463534052440595881/free-ecommerce-landing-page-templates-by-pm-digital",
+      "titre": "Free Ecommerce Landing Page Templates",
+      "resume": "Modèles de pages de destination e-commerce à haute conversion créés par une agence Shopify & CRO, utiles pour structurer ses designs publicitaires.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "e-commerce",
+        "shopify",
+        "landing page",
+        "cro",
+        "templates"
+      ],
+      "auteur": "PM Digital",
+      "type_auteur": "agence",
+      "domaine": "figma.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-09-29"
+    },
+    {
       "id": "f6056fc10942",
       "url": "https://www.yannlemad.com/guide/36-hooks",
       "titre": "36 hooks pour vos créas Facebook et TikTok Ads",
@@ -184,7 +457,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-09-28T11:00:52+00:00",
+  "mis_a_jour_le": "2026-09-29T06:10:19+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
