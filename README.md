@@ -3,7 +3,7 @@
 Site de veille pour creative strategist : les **lead magnets** publiés par les agences (guides, templates, swipe files, banques de hooks, Notion, rapports gratuits). Mise à jour chaque jour, pour 0 €.
 
 ```
-GitHub Actions (tous les jours vers 4h17 UTC, soit 6h17 à Paris en été)
+GitHub Actions (chaque soir vers 22h17 à Paris, avec le retard habituel de GitHub : prête au matin)
   → scripts/veille.py : collecte (détail ci-dessous)
   → lecture de chaque page (y compris les pages Notion) ; contenus payants écartés
   → tri par Gemini : uniquement des lead magnets, agences et français en priorité

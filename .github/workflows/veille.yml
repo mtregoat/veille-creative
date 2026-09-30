@@ -2,12 +2,13 @@ name: Veille quotidienne
 
 on:
   schedule:
-    # Veille vers 4h17 UTC (6h17 à Paris en été). GitHub peut retarder ou même sauter une tâche
-    # programmée quand ses serveurs sont chargés : deux rattrapages sont prévus plus tard, et ils
-    # ne font rien si la veille du jour a déjà eu lieu.
-    - cron: "17 4 * * *"
-    - cron: "47 7 * * *"
-    - cron: "17 11 * * *"
+    # GitHub lance les tâches programmées avec beaucoup de retard (5 à 6 heures constatées ici).
+    # La veille est donc demandée la veille au soir, à 20h17 UTC (22h17 à Paris en été), pour être
+    # faite au plus tard au petit matin. Deux rattrapages suivent ; ils ne font rien si une veille
+    # a déjà tourné dans les 16 dernières heures.
+    - cron: "17 20 * * *"
+    - cron: "47 23 * * *"
+    - cron: "17 3 * * *"
   workflow_dispatch: # bouton « Run workflow » pour lancer à la main
   push: # republie le site quand tu modifies un fichier (sans relancer la veille)
     branches: [main]
@@ -32,11 +33,12 @@ jobs:
       - uses: actions/checkout@v4
 
       - id: deja
-        name: Veille déjà faite aujourd'hui ?
+        name: Veille déjà faite récemment ?
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && grep -q "\"mis_a_jour_le\": \"$(date -u +%Y-%m-%d)" data/ressources.json; then
+          heures=$(python3 -c "import json, datetime as dt; d = json.load(open('data/ressources.json')).get('mis_a_jour_le'); print(int((dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(d)).total_seconds() // 3600) if d else 999)")
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$heures" -lt 16 ]; then
             echo "fait=true" >> "$GITHUB_OUTPUT"
-            echo "::notice::Veille déjà faite aujourd'hui : ce rattrapage ne fait rien."
+            echo "::notice::Veille déjà faite il y a ${heures} h : ce lancement ne fait rien."
           else
             echo "fait=false" >> "$GITHUB_OUTPUT"
           fi
