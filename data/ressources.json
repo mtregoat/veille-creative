@@ -1,6 +1,300 @@
 {
   "items": [
     {
+      "id": "25a1ae2e9d58",
+      "url": "https://metricool.com/fr/etude-social-ads",
+      "titre": "Étude Social Ads 2026 : benchmarks publicitaires Meta & TikTok",
+      "resume": "Une étude majeure basée sur l'analyse de plus de 600 000 campagnes publicitaires sur Meta et TikTok. Idéale pour comparer ses performances (CTR, CPC, CPM) et ajuster sa stratégie de diffusion.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "benchmark",
+        "Meta Ads",
+        "TikTok Ads",
+        "rapport"
+      ],
+      "auteur": "Metricool",
+      "type_auteur": "outil",
+      "domaine": "metricool.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 9,
+      "source": "web",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "354036906f65",
+      "url": "https://www.notion.so/fr-fr/templates/category/free-design-brief-templates?nxtPslug=free-design-brief-templates",
+      "titre": "Modèles gratuits — Brief de design",
+      "resume": "Une bibliothèque de modèles Notion gratuits pour rédiger des briefs de design clairs et standardisés. Permet de structurer efficacement ses demandes créatives auprès des graphistes et monteurs.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "Notion",
+        "template",
+        "design"
+      ],
+      "auteur": "Notion",
+      "type_auteur": "outil",
+      "domaine": "notion.so",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "fb1f4c0f6865",
+      "url": "https://www.notion.so/fr-fr/templates/creative-brief",
+      "titre": "Modèle de Brief Créatif par Notion",
+      "resume": "Un template Notion officiel et gratuit pour centraliser les objectifs, livrables, budgets et plannings de vos campagnes créatives.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "cahier des charges",
+        "template notion",
+        "organisation"
+      ],
+      "auteur": "Notion",
+      "type_auteur": "outil",
+      "domaine": "notion.so",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "367b61a180ed",
+      "url": "https://www.figma.com/fr-fr/templates/template-de-persona",
+      "titre": "Template de fiche persona FigJam",
+      "resume": "Un modèle collaboratif pour cartographier les besoins, motivations et traits de vos clients cibles. Idéal pour aligner vos angles d'attaque et messages publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "persona",
+        "cible",
+        "stratégie",
+        "figma"
+      ],
+      "auteur": "Figma",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "04741ad75f70",
+      "url": "https://www.figma.com/fr-fr/templates/template-analyse-concurrentielle",
+      "titre": "Template d'analyse concurrentielle FigJam",
+      "resume": "Un espace de travail visuel pour analyser les forces, faiblesses et positionnements de vos concurrents. Utile pour identifier des opportunités créatives et des angles publicitaires différenciants.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "concurrence",
+        "benchmark",
+        "stratégie",
+        "figma"
+      ],
+      "auteur": "Figma",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "6619f1766839",
+      "url": "https://metricool.com/fr/ressources/",
+      "titre": "Rapport Vidéos Courtes 2026",
+      "resume": "Rapport sur les performances et tendances des formats vidéo courts (Reels, TikTok, Shorts). Utile pour identifier les formats publicitaires qui captent l'attention.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "vidéos courtes",
+        "tendances",
+        "tiktok",
+        "reels"
+      ],
+      "auteur": "Metricool",
+      "type_auteur": "outil",
+      "domaine": "metricool.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 7,
+      "source": "boule de neige",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "0e9fd4a78f92",
+      "url": "https://ads.tiktok.com/business/library/TikTok_CreativeCodes_May2023.pdf",
+      "titre": "TikTok Creative Codes",
+      "resume": "Guide officiel de TikTok analysant les codes créatifs et l'impact des 6 premières secondes sur la mémorisation. Idéal pour structurer ses hooks et optimiser ses scripts vidéo.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "TikTok",
+        "hooks",
+        "vidéo",
+        "performances"
+      ],
+      "auteur": "TikTok",
+      "type_auteur": "marque",
+      "domaine": "ads.tiktok.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "exploration",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "97733edd8674",
+      "url": "https://chromewebstore.google.com/detail/klipio-%E2%80%94-meta-ad-library/ifkdgejknpkbhfpplplnjmkjifhacnod",
+      "titre": "Klipio — Téléchargeur de la Bibliothèque publicitaire Meta",
+      "resume": "Extension Chrome gratuite pour télécharger en lot des vidéos, images et carrousels depuis la Meta Ad Library et constituer un swipe file.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "Meta",
+        "veille",
+        "extension"
+      ],
+      "auteur": "KAK DIGITAL LLC",
+      "type_auteur": "outil",
+      "domaine": "chromewebstore.google.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "038351146468",
+      "url": "https://thepollinatr.substack.com/p/my-fav-2026-trend-reports-and-key",
+      "titre": "2026 Trend Reports Cheat Sheet",
+      "resume": "Synthèse et feuille de route des rapports de tendances marketing pour alimenter les briefs créatifs et les angles de campagne.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "tendances",
+        "briefs",
+        "marketing"
+      ],
+      "auteur": "Michelle Blaser",
+      "type_auteur": "freelance",
+      "domaine": "thepollinatr.substack.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "e94f99ac85fa",
+      "url": "https://ads.tiktok.com/business/en/creative-codes",
+      "titre": "TikTok Creative Codes: 6 Principles for Effective Ads",
+      "resume": "Guide officiel de TikTok détaillant 6 principes pour concevoir des publicités performantes et structurer ses créas vidéo.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "tiktok",
+        "principes",
+        "publicité",
+        "stratégie"
+      ],
+      "auteur": "TikTok for Business",
+      "type_auteur": "outil",
+      "domaine": "ads.tiktok.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "b1999ca9e553",
+      "url": "https://eden.so/vs/swipekit",
+      "titre": "Eden vs SwipeKit: Ad Inspiration Workspace",
+      "resume": "Outil et espace de travail gratuit pour la recherche publicitaire, le swipe file et le stockage d'inspiration Meta et TikTok.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "veille",
+        "inspiration",
+        "publicité"
+      ],
+      "auteur": "Eden",
+      "type_auteur": "outil",
+      "domaine": "eden.so",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "7c7655268688",
+      "url": "https://ads.tiktok.com/business/library/Whats_Next_2024_In_Action_CA.pdf",
+      "titre": "What's Next 2024: In Action",
+      "resume": "Rapport de tendances et d'études de cas de TikTok montrant l'évolution des comportements culturels pour alimenter les concepts créatifs.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "tiktok",
+        "tendances",
+        "culture",
+        "études de cas"
+      ],
+      "auteur": "TikTok for Business",
+      "type_auteur": "outil",
+      "domaine": "ads.tiktok.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "43eeacc411a3",
+      "url": "https://toolfolio.com/tools/klipio",
+      "titre": "Klipio Chrome Extension",
+      "resume": "Extension Chrome gratuite pour télécharger en masse les publicités de la Meta Ad Library au format vidéo HD, image ou carrousel. Idéal pour constituer rapidement un swipe file publicitaire.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "meta ad library",
+        "veille publicitaire",
+        "extension chrome"
+      ],
+      "auteur": "Klipio",
+      "type_auteur": "outil",
+      "domaine": "toolfolio.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-09-30"
+    },
+    {
+      "id": "b01958e21b28",
+      "url": "https://metricool.com/it/social-ads-report/",
+      "titre": "Social Ads Report 2026",
+      "resume": "Analyse de près de 630 000 campagnes Meta et TikTok pour comparer les coûts et performances publicitaires. Utile pour calibrer ses benchmarks et orienter ses arbitrages média.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "social ads",
+        "meta",
+        "tiktok",
+        "benchmark",
+        "rapport"
+      ],
+      "auteur": "Metricool",
+      "type_auteur": "outil",
+      "domaine": "metricool.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "boule de neige",
+      "ajoute_le": "2026-09-30"
+    },
+    {
       "id": "98315f4c6931",
       "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_carrousel-veille-cr%C3%A9a-auto-activity-7501608624012677120-zxnF",
       "titre": "Veille créa auto (Meta & Google Ads)",
@@ -311,7 +605,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-09-29T06:10:19+00:00",
+  "mis_a_jour_le": "2026-09-30T23:55:34+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
