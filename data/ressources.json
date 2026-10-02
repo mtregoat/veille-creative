@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "id": "17e49ac54fcf",
+      "url": "https://iaespresso.substack.com/p/mon-secret-pour-transformer-claude",
+      "titre": "Entraîne Claude à écrire des textes qui vendent (vraiment)",
+      "resume": "Un fichier de prompt ('skill') de 3 000 mots conçu pour transformer Claude en copywriter d'élite. Idéal pour générer des variations de textes publicitaires persuasifs basés sur la psychologie de vente.",
+      "categorie": "Copywriting",
+      "tags": [
+        "copywriting",
+        "prompt Claude",
+        "intelligence artificielle",
+        "rédaction publicitaire"
+      ],
+      "auteur": "IA Espresso",
+      "type_auteur": "freelance",
+      "domaine": "iaespresso.substack.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-01"
+    },
+    {
+      "id": "4cf1cc407e35",
+      "url": "https://catherinestlaurent.substack.com/p/mange-ta-vie",
+      "titre": "MANGE TA VIE !!!!!!!!!",
+      "resume": "Un PDF téléchargeable présentant les tendances visuelles et créatives de la saison pour inspirer la direction artistique de vos projets.",
+      "categorie": "Tendances visuelles",
+      "tags": [
+        "tendances",
+        "direction artistique",
+        "pdf",
+        "inspiration"
+      ],
+      "auteur": "Catherine St-Laurent",
+      "type_auteur": "freelance",
+      "domaine": "catherinestlaurent.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-01"
+    },
+    {
+      "id": "b4aaf4e46ce7",
+      "url": "https://www.linkedin.com/posts/jake-castillo_when-we-started-running-ads-at-cal-ai-we-activity-7501995080929562625-VuSB",
+      "titre": "Cal AI Ads Swipe File & Checklist",
+      "resume": "Une checklist et un swipe file de publicités performantes utilisées pour Cal AI, à obtenir en commentant le post LinkedIn.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "checklist",
+        "social ads",
+        "linkedin"
+      ],
+      "auteur": "Jake Castillo",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-01"
+    },
+    {
+      "id": "8beb5529b348",
+      "url": "https://www.impossible-question.com/briefing-templates",
+      "titre": "Free Brief Templates | iQ",
+      "resume": "Une suite de 10 modèles de briefs gratuits (créatif, copy, vidéo, social media) sans inscription. Parfait pour cadrer précisément ses concepts et scripts publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "brief vidéo",
+        "copywriting",
+        "template"
+      ],
+      "auteur": "Impossible Question",
+      "type_auteur": "agence",
+      "domaine": "impossible-question.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-01"
+    },
+    {
       "id": "25a1ae2e9d58",
       "url": "https://metricool.com/fr/etude-social-ads",
       "titre": "Étude Social Ads 2026 : benchmarks publicitaires Meta & TikTok",
@@ -605,7 +689,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-09-30T23:55:34+00:00",
+  "mis_a_jour_le": "2026-10-01T23:56:12+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
