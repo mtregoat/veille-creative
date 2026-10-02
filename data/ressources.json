@@ -1,6 +1,175 @@
 {
   "items": [
     {
+      "id": "a8397744a468",
+      "url": "https://dhsdigital.substack.com/p/111-les-121-creas-black-friday-les",
+      "titre": "#111 - Les 121 créas Black Friday les plus poussées par les marques D2C",
+      "resume": "Un swipe file massif de 121 publicités Black Friday pour analyser les offres, les angles et la structure des meilleures marques D2C afin de s'en inspirer.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "Black Friday",
+        "D2C",
+        "Swipe file",
+        "Inspiration"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "dhsdigital.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "id": "c7bebcafa8b4",
+      "url": "https://iaespresso.substack.com/p/transforme-ta-newsletter-en-carrousel",
+      "titre": "Système de transformation de newsletter en carrousel (Claude + Canva)",
+      "resume": "Un guide pratique accompagné de 5 templates Canva prêts à l'emploi et d'un prompt Claude pour transformer rapidement des contenus textuels en carrousels visuels pour LinkedIn et Instagram.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "carrousel",
+        "Canva",
+        "templates",
+        "Claude AI",
+        "recyclage de contenu"
+      ],
+      "auteur": "IA Espresso",
+      "type_auteur": "freelance",
+      "domaine": "iaespresso.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "id": "680dc2c5d5ad",
+      "url": "https://digitall-conseil.notion.site/Les-Outils-Star-des-R-seaux-Sociaux-ef34b1db4761432eb8de100ef2825804",
+      "titre": "Les Outils Star des Réseaux Sociaux",
+      "resume": "Un espace Notion gratuit listant plus de 100 outils pour optimiser la gestion et la création sur les réseaux sociaux. Utile pour équiper sa boîte à outils de creative strategist.",
+      "categorie": "IA & outils",
+      "tags": [
+        "outils",
+        "réseaux sociaux",
+        "notion",
+        "productivité"
+      ],
+      "auteur": "DIGITALL Conseil",
+      "type_auteur": "agence",
+      "domaine": "digitall-conseil.notion.site",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "id": "4e2e9567826f",
+      "url": "https://docs.google.com/document/d/14xMsf64uvocJYQFTbnRDOeWlcML_TRoGFiU-nIC3-OA/edit",
+      "titre": "Free creative brief template",
+      "resume": "Un modèle de brief créatif sur Google Docs pour structurer ses campagnes, définir les objectifs, la cible et les livrables attendus.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "template",
+        "google docs",
+        "stratégie créative"
+      ],
+      "auteur": "",
+      "type_auteur": "autre",
+      "domaine": "docs.google.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "id": "f512175433cc",
+      "url": "https://gamma.app/docs/Double-Your-Ad-Creative-Output-Add-6-Figures-in-Revenue-and-Save--5urdtn1giw05ggs",
+      "titre": "Double Your Ad Creative Output, Add 6-Figures in Revenue",
+      "resume": "Un document de travail partagé comprenant une checklist de processus créatif, des prompts et des scripts de publicités UGC axés sur la réponse directe.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "UGC",
+        "Scripts",
+        "Checklist",
+        "E-commerce"
+      ],
+      "auteur": "Inconnu",
+      "type_auteur": "freelance",
+      "domaine": "gamma.app",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "id": "bb71f78d09ad",
+      "url": "https://substack.com/@sifuyik/note/c-325672135",
+      "titre": "100 Claude Script Prompts That Hook Every Viewer",
+      "resume": "Une liste de 100 prompts pour Claude AI conçus pour rédiger des scripts de vidéos courtes (Reels, UGC, YouTube) captivants dès les premières secondes.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "Prompts",
+        "Claude AI",
+        "Scripts",
+        "UGC"
+      ],
+      "auteur": "Sifu Yik Chan",
+      "type_auteur": "freelance",
+      "domaine": "substack.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "id": "171957db859a",
+      "url": "https://gamma.app/docs/The-AI-Prompt-Swipe-File-to-Build-Iterate-Scale-Your-Meta-Ad-Spen-wwyz5sfmheicfan",
+      "titre": "The AI Prompt Swipe File to Build, Iterate & Scale Your Meta Ad Spend",
+      "resume": "Un swipe file de prompts actionnables sur Gamma pour optimiser et scaler ses campagnes Meta Ads. Idéal pour structurer ses briefs créatifs et accélérer la production de concepts publicitaires avec l'IA.",
+      "categorie": "IA & outils",
+      "tags": [
+        "prompts IA",
+        "Meta Ads",
+        "swipe file",
+        "workflow créatif"
+      ],
+      "auteur": "Gamma",
+      "type_auteur": "autre",
+      "domaine": "gamma.app",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "id": "654733ed72f8",
+      "url": "https://insense.pro/ebooks-guides/creative-brief-template-for-tiktok-shop-campaigns",
+      "titre": "Creative brief template for TikTok Shop campaigns",
+      "resume": "Un modèle de brief créatif gratuit à télécharger pour structurer vos campagnes TikTok Shop et guider efficacement vos créateurs UGC.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "tiktok shop",
+        "ugc",
+        "template"
+      ],
+      "auteur": "Insense",
+      "type_auteur": "outil",
+      "domaine": "insense.pro",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-02"
+    },
+    {
       "id": "17e49ac54fcf",
       "url": "https://iaespresso.substack.com/p/mon-secret-pour-transformer-claude",
       "titre": "Entraîne Claude à écrire des textes qui vendent (vraiment)",
@@ -689,7 +858,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-01T23:56:12+00:00",
+  "mis_a_jour_le": "2026-10-02T23:50:06+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
