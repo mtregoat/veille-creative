@@ -1,6 +1,177 @@
 {
   "items": [
     {
+      "id": "55f0546ec1c1",
+      "url": "https://fr.linkedin.com/posts/nilsenirmouli_on-lance-bfcm-lundi-et-on-a-aucune-cr%C3%A9a-activity-7505536983197282304-0s07",
+      "titre": "Pack de créas de Noël gratuites",
+      "resume": "Une bibliothèque de 50 à 100+ templates de créations publicitaires prêtes à l'emploi pour les fêtes de fin d'année. Idéal pour concevoir rapidement des social ads de Noël performantes.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "templates créatifs",
+        "Noël",
+        "social ads",
+        "e-commerce"
+      ],
+      "auteur": "Kreads",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 9,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "id": "f091974a5834",
+      "url": "https://fr.linkedin.com/posts/guillaume-vuillier_commente-claude-et-je-tenvoie-ma-super-activity-7503741583150972928-h5d3",
+      "titre": "Ressource Claude pour l'acquisition Meta Ads",
+      "resume": "Un partage de ressource ou prompt basé sur Claude AI pour aider à structurer et optimiser l'acquisition e-commerce sur Meta Ads.",
+      "categorie": "IA & outils",
+      "tags": [
+        "Meta Ads",
+        "Claude AI",
+        "E-commerce",
+        "Acquisition"
+      ],
+      "auteur": "Guillaume Vuillier",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "id": "95bb2abd8aa9",
+      "url": "https://metricool.com/fr/calendrier-social-media-canada",
+      "titre": "Calendrier Social Media CANADA 2027 : spécial Québec",
+      "resume": "Un calendrier marketing gratuit listant les dates clés et marronniers de 2027 pour planifier ses concepts publicitaires et rebondir sur l'actualité.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "calendrier",
+        "marronniers",
+        "social media",
+        "planification",
+        "quebec"
+      ],
+      "auteur": "Metricool",
+      "type_auteur": "outil",
+      "domaine": "metricool.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "id": "b40b96eda148",
+      "url": "https://fr.linkedin.com/posts/william-molia_jai-arr%C3%AAt%C3%A9-dempiler-les-saas-alors-activity-7512090557553315840-vd53",
+      "titre": "Prompt Notion pour trouver des angles créatifs",
+      "resume": "Un prompt et un système Notion à recevoir en DM pour structurer ses recherches d'angles d'accroche et de copywriting directement dans Notion.",
+      "categorie": "Angles & concepts",
+      "tags": [
+        "notion",
+        "prompt",
+        "angles",
+        "copywriting"
+      ],
+      "auteur": "William Molia",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "id": "1d12a6d75ef1",
+      "url": "https://metricool.com/fr/blog-informations/guides-de-publicite-en-ligne/",
+      "titre": "Guides de publicité en ligne Metricool",
+      "resume": "Une collection de guides pratiques proposés par Metricool pour maîtriser les campagnes publicitaires sur les différents réseaux sociaux. Idéal pour structurer ses approches par canal et adapter ses formats créatifs aux spécificités de chaque plateforme.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "social ads",
+        "publicité",
+        "stratégie",
+        "meta",
+        "tiktok"
+      ],
+      "auteur": "Metricool",
+      "type_auteur": "outil",
+      "domaine": "metricool.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 7,
+      "source": "boule de neige",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "id": "d93df3bf25d6",
+      "url": "https://www.figma.com/community/web-ads/video-ads",
+      "titre": "Free Video Ad Templates You Can Edit | Figma",
+      "resume": "Une bibliothèque de templates Figma gratuits pour concevoir des publicités vidéo pour les réseaux sociaux. Idéal pour créer rapidement des maquettes animées.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "Templates Figma",
+        "Publicité vidéo",
+        "Social Ads",
+        "Maquettes"
+      ],
+      "auteur": "Figma",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "id": "f4032edad252",
+      "url": "https://www.linkedin.com/posts/trav-stewart-0b1b89237_if-you-run-an-ecom-brand-and-your-creative-activity-7506182190649651200-PcNY",
+      "titre": "Ad Fatigue Diagnosis Tool",
+      "resume": "Un outil gratuit pour identifier et analyser la fatigue publicitaire de vos campagnes e-commerce. Idéal pour savoir quand renouveller vos concepts créatifs.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "fatigue publicitaire",
+        "creative testing",
+        "social ads",
+        "e-commerce"
+      ],
+      "auteur": "Trav Stewart",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "id": "f8ef2a0f4c3e",
+      "url": "https://metricool.com/social-media-advertising-trends",
+      "titre": "Social Media Advertising Trends 2026 | Metricool",
+      "resume": "Rapport complet basé sur 471 millions de dollars de dépenses publicitaires comparant les performances et coûts sur Meta et TikTok, idéal pour orienter ses choix de budgets et formats publicitaires.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "social ads",
+        "meta",
+        "tiktok",
+        "tendances",
+        "benchmark"
+      ],
+      "auteur": "Metricool",
+      "type_auteur": "outil",
+      "domaine": "metricool.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-03"
+    },
+    {
       "id": "a8397744a468",
       "url": "https://dhsdigital.substack.com/p/111-les-121-creas-black-friday-les",
       "titre": "#111 - Les 121 créas Black Friday les plus poussées par les marques D2C",
@@ -858,7 +1029,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-02T23:50:06+00:00",
+  "mis_a_jour_le": "2026-10-03T23:08:02+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
