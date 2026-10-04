@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "id": "15bb71dbef66",
+      "url": "https://donutzdigital.com/fr/ressources-strategie-digitale",
+      "titre": "Playbook Google Ads en 2026 : ce qui fonctionne vraiment",
+      "resume": "Un guide PDF complet rédigé par une agence pour maîtriser les stratégies, configurations et optimisations ROIstes sur Google Ads.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "google ads",
+        "playbook",
+        "growth marketing",
+        "sea"
+      ],
+      "auteur": "Donutz Digital",
+      "type_auteur": "agence",
+      "domaine": "donutzdigital.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 9,
+      "source": "web",
+      "ajoute_le": "2026-10-04"
+    },
+    {
+      "id": "c836a8abf81a",
+      "url": "https://www.figma.com/community/file/1359093874035601770/story-board-moodboard-gabarit-digital-campus",
+      "titre": "Story board - Moodboard gabarit",
+      "resume": "Un gabarit Figma prêt à l'emploi pour concevoir facilement vos storyboards et moodboards afin de structurer vos briefs créatifs vidéo.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "storyboard",
+        "moodboard",
+        "figma",
+        "brief créatif"
+      ],
+      "auteur": "Digital Campus",
+      "type_auteur": "autre",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-04"
+    },
+    {
+      "id": "8bb0deff74f0",
+      "url": "https://www.figma.com/community/file/1230695971828482460/modele-de-moodboard-pour-site-web",
+      "titre": "Modèle de Moodboard pour site web",
+      "resume": "Un template Figma gratuit pour créer trois planches d'inspiration afin de structurer la direction artistique de vos projets visuels.",
+      "categorie": "Tendances visuelles",
+      "tags": [
+        "moodboard",
+        "figma",
+        "direction artistique",
+        "template"
+      ],
+      "auteur": "Cindy Carrillo",
+      "type_auteur": "freelance",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-04"
+    },
+    {
+      "id": "99baba97681b",
+      "url": "https://donutzdigital.com/digital-strategies-resources/",
+      "titre": "Digital Strategies & Marketing Resources by Donutz Digital",
+      "resume": "Une bibliothèque de plus de 120 ressources incluant des guides pratiques, frameworks et templates d'agence. Utile pour structurer ses stratégies Paid Social et concevoir ses campagnes publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "guides",
+        "frameworks",
+        "templates",
+        "paid social",
+        "stratégie"
+      ],
+      "auteur": "Donutz Digital",
+      "type_auteur": "agence",
+      "domaine": "donutzdigital.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "boule de neige",
+      "ajoute_le": "2026-10-04"
+    },
+    {
       "id": "55f0546ec1c1",
       "url": "https://fr.linkedin.com/posts/nilsenirmouli_on-lance-bfcm-lundi-et-on-a-aucune-cr%C3%A9a-activity-7505536983197282304-0s07",
       "titre": "Pack de créas de Noël gratuites",
@@ -1029,7 +1114,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-03T23:08:02+00:00",
+  "mis_a_jour_le": "2026-10-04T23:15:16+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
