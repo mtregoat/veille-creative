@@ -1,6 +1,133 @@
 {
   "items": [
     {
+      "id": "fdeabc38ea4c",
+      "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_chaque-ann%C3%A9e-cest-pareil-mi-octobre-les-activity-7511349785774387202-4z_b",
+      "titre": "Swipe file de structures de pubs Black Friday",
+      "resume": "Une ressource partagée sur LinkedIn analysant la structure (hook, format, déroulé) de centaines de publicités Black Friday pour s'en inspirer.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "black friday",
+        "meta ads",
+        "swipe file",
+        "structures pub"
+      ],
+      "auteur": "Danilo Duchesnes",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 10,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-06"
+    },
+    {
+      "id": "59b11b4f4e49",
+      "url": "https://www.figma.com/fr-fr/resource-library/instagram-photo-size",
+      "titre": "Guide des tailles et formats d’images Instagram",
+      "resume": "Un guide complet accompagné de templates Figma gratuits pour adapter ses visuels et publicités aux différents formats d'Instagram.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "instagram",
+        "formats pub",
+        "templates figma",
+        "design"
+      ],
+      "auteur": "Figma",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-06"
+    },
+    {
+      "id": "3c25f312b1e3",
+      "url": "https://www.figma.com/community/web-ads/facebook-ad-templates",
+      "titre": "Free Customizable Facebook Ad Template Library",
+      "resume": "Une bibliothèque de templates Figma gratuits pour concevoir et visualiser des publicités Facebook (Feeds, Stories, Vidéos) avant leur lancement.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "templates figma",
+        "facebook ads",
+        "maquettes pub",
+        "design"
+      ],
+      "auteur": "Figma",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-06"
+    },
+    {
+      "id": "8b02ca86a545",
+      "url": "https://viral.app/free-tools/notion-templates",
+      "titre": "7 Free Notion Templates for UGC & Influencer Campaigns",
+      "resume": "Une suite de 7 modèles Notion gratuits pour gérer ses campagnes UGC et d'influence. Inclut des briefs de créateurs, un planificateur de tests de hooks et un kit de lancement.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "Notion",
+        "brief créateur",
+        "UGC",
+        "test de hooks",
+        "modèle gratuit"
+      ],
+      "auteur": "viral.app",
+      "type_auteur": "outil",
+      "domaine": "viral.app",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-06"
+    },
+    {
+      "id": "8e637a2beefb",
+      "url": "https://www.linkedin.com/posts/rizwansaeed610_45-3-second-hook-rate-is-the-exact-threshold-activity-7508149347159801857-xspG",
+      "titre": "Video Ad Scriptwriting Template & 20 Hook Frameworks",
+      "resume": "Un modèle de rédaction de scripts pour publicités vidéo accompagné de 20 structures d'accroches prêtes à l'emploi pour maximiser le taux de rétention à 3 secondes.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "script",
+        "hooks",
+        "publicité vidéo",
+        "framework"
+      ],
+      "auteur": "Rizwan Saeed",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-06"
+    },
+    {
+      "id": "13959473eb3c",
+      "url": "https://donutzdigital.com/digital-strategies",
+      "titre": "Pinterest Ads Strategy Playbooks",
+      "resume": "Une série de guides stratégiques gratuits par secteur (mode, alimentation, maison, sport) pour concevoir et optimiser ses campagnes publicitaires sur Pinterest.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "Pinterest Ads",
+        "guide",
+        "e-commerce",
+        "stratégie publicitaire"
+      ],
+      "auteur": "Donutz Digital",
+      "type_auteur": "agence",
+      "domaine": "donutzdigital.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-10-06"
+    },
+    {
       "id": "15bb71dbef66",
       "url": "https://donutzdigital.com/fr/ressources-strategie-digitale",
       "titre": "Playbook Google Ads en 2026 : ce qui fonctionne vraiment",
@@ -1114,7 +1241,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-04T23:15:16+00:00",
+  "mis_a_jour_le": "2026-10-06T01:19:34+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
