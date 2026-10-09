@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "id": "76edcfdbe2a3",
+      "url": "https://www.notion.so/fr-fr/templates/category/competitive-analysis",
+      "titre": "Modèles d'analyse concurrentielle Notion",
+      "resume": "Une sélection de templates Notion gratuits dédiés à l'analyse concurrentielle. Idéal pour cartographier le positionnement de ses concurrents et identifier des opportunités créatives.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "analyse concurrentielle",
+        "notion",
+        "template",
+        "benchmark"
+      ],
+      "auteur": "Notion",
+      "type_auteur": "outil",
+      "domaine": "notion.so",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-09"
+    },
+    {
+      "id": "c0bfa539629a",
+      "url": "https://docs.google.com/document/u/0/d/1-Je4QD3bCO-82t6FCwPNvAg3rBdz8h41dIqyqXn_MAI/mobilebasic",
+      "titre": "The Competitor Creative Strategist Playbook for DTC Brands & Creative Agencies",
+      "resume": "Un playbook ultra-complet pour concevoir un système IA (via Claude Code) qui analyse les publicités Meta des concurrents et génère des briefs créatifs basés sur la donnée. Parfait pour systématiser sa veille concurrentielle et ses briefs.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "Meta Ads",
+        "Brief créatif",
+        "Claude Code",
+        "Analyse concurrentielle",
+        "DTC"
+      ],
+      "auteur": "SCALE AI",
+      "type_auteur": "agence",
+      "domaine": "docs.google.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-10-09"
+    },
+    {
+      "id": "38e4d2629b95",
+      "url": "https://www.linkedin.com/posts/ishamalhotra20_ive-run-ugc-for-tech-brands-that-pulled-activity-7506030188569239552-kxat",
+      "titre": "5 Key Elements for Successful UGC Campaigns: S.C.A.L.E.",
+      "resume": "Le framework exact d'une agence UGC pour structurer et briefer ses campagnes de contenu généré par les utilisateurs. Idéal pour s'assurer que les créateurs d'UGC répondent parfaitement aux objectifs de conversion.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "UGC",
+        "Brief créatif",
+        "Framework",
+        "Campagne publicitaire"
+      ],
+      "auteur": "Isha Malhotra",
+      "type_auteur": "agence",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-09"
+    },
+    {
+      "id": "76694b8014c8",
+      "url": "https://mhamedasskoure.gumroad.com/l/thzrl",
+      "titre": "DTC Creative Testing OS - Excel Tracker, Creative Brief + 24 Ad Angles",
+      "resume": "Un système complet sur Gumroad comprenant un tracker Excel pour le creative testing, un template de brief créatif et 24 angles d'annonces pour structurer et analyser ses campagnes DTC.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "creative testing",
+        "brief créatif",
+        "e-commerce",
+        "angles publicitaires"
+      ],
+      "auteur": "Mhamed Asskoure",
+      "type_auteur": "freelance",
+      "domaine": "mhamedasskoure.gumroad.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-09"
+    },
+    {
       "id": "0387b453fa4f",
       "url": "https://dhsdigital.substack.com/p/81-474-560-pubs-analysees-voici-les",
       "titre": "8 formats créatifs qui vont dominer Meta en 2026 (+ Swipe File Notion)",
@@ -1345,7 +1430,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-08T00:14:44+00:00",
+  "mis_a_jour_le": "2026-10-09T00:26:50+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
