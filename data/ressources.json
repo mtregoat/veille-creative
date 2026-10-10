@@ -1,6 +1,50 @@
 {
   "items": [
     {
+      "id": "b4324d4b2406",
+      "url": "https://agencexplr.substack.com/p/reussir-vos-soldes-dete-nouvelle",
+      "titre": "Checklist Soldes d'été & Veille Social Ads",
+      "resume": "Une checklist téléchargeable pour structurer ses offres promotionnelles accompagnée d'une sélection swipe file des meilleures créas publicitaires du moment préparée par l'équipe d'agence.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "checklist",
+        "swipe file",
+        "social ads",
+        "soldes",
+        "créas"
+      ],
+      "auteur": "Agence XPLR",
+      "type_auteur": "agence",
+      "domaine": "agencexplr.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-10-10"
+    },
+    {
+      "id": "822c2f28c9e4",
+      "url": "https://fr.linkedin.com/posts/ramzib_1000-hooks-ugc-oui-ce-dossier-contient-activity-7507030773116338176-RI_F",
+      "titre": "Banque de 1000+ hooks et réactions UGC en vidéo",
+      "resume": "Un dossier regroupant plus de 1000 séquences vidéo de réactions et décors variés. Pratique pour nourrir les briefs créatifs et trouver des accroches visuelles pour les pubs UGC.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks ugc",
+        "créa vidéo",
+        "social ads",
+        "inspiration pub",
+        "accroches"
+      ],
+      "auteur": "Ramzi B.",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-10"
+    },
+    {
       "id": "a34ed1c38237",
       "url": "https://dompteursdalgo.substack.com/p/comment-arreter-de-perdre-de-largent",
       "titre": "Template d'Audit et Stratégie Créative Facebook Ads",
@@ -1535,7 +1579,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-10T00:04:26+00:00",
+  "mis_a_jour_le": "2026-10-10T23:37:34+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
