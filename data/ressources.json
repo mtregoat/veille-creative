@@ -1,6 +1,111 @@
 {
   "items": [
     {
+      "id": "a34ed1c38237",
+      "url": "https://dompteursdalgo.substack.com/p/comment-arreter-de-perdre-de-largent",
+      "titre": "Template d'Audit et Stratégie Créative Facebook Ads",
+      "resume": "Un template complet pour structurer l'audit de ses publicités Facebook, définir sa ligne éditoriale (messages, angles, formats) et planifier ses itérations créatives.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "audit créatif",
+        "facebook ads",
+        "stratégie créative",
+        "angles marketing"
+      ],
+      "auteur": "Dompteurs d'algo",
+      "type_auteur": "freelance",
+      "domaine": "dompteursdalgo.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-10-10"
+    },
+    {
+      "id": "42155fd35ab2",
+      "url": "https://www.figma.com/fr-fr/communaute/publicites-web/video-ads",
+      "titre": "Modèles de publicité vidéo gratuits que vous pouvez modifier | Figma",
+      "resume": "Des modèles vidéo Figma gratuits pour concevoir et structurer des publicités performantes sur Facebook, Instagram et YouTube.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "Publicité vidéo",
+        "Templates Figma",
+        "Social Ads",
+        "Facebook Ads"
+      ],
+      "auteur": "Figma",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-10"
+    },
+    {
+      "id": "43b0765b12cb",
+      "url": "https://www.figma.com/fr-fr/communaute/publicites-web/modeles-publicitaires-instagram",
+      "titre": "Modèles gratuits de publicités et mock-ups Instagram | Figma",
+      "resume": "Des gabarits et mock-ups Instagram gratuits sur Figma pour tester le rendu visuel de ses créations avant leur mise en ligne.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "Instagram Ads",
+        "Mockups",
+        "Templates Figma",
+        "Social Ads"
+      ],
+      "auteur": "Figma",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-10"
+    },
+    {
+      "id": "3d1b308e8c54",
+      "url": "https://mhamedasskoure.gumroad.com/l/otqltu",
+      "titre": "DTC Ad Hook Swipe File - 75 Hooks + 12 Scripts + Creative Brief",
+      "resume": "Un kit créatif complet comprenant 75 accroches publicitaires pour Meta et TikTok, 12 scripts et un modèle de brief. Parfait pour surmonter le syndrome de la page blanche lors de la rédaction de publicités DTC.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks publicitaires",
+        "scripts publicitaires",
+        "DTC",
+        "swipe file"
+      ],
+      "auteur": "Mhamed Asskoure",
+      "type_auteur": "freelance",
+      "domaine": "mhamedasskoure.gumroad.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-10-10"
+    },
+    {
+      "id": "2b71ad2486fd",
+      "url": "https://sup.co/tools/influencer-brief-template",
+      "titre": "Générateur de brief d'influence gratuit (Sup)",
+      "resume": "Un outil interactif pour générer en un clic un brief créatif d'une page destiné aux influenceurs. Permet de structurer les objectifs, messages clés et livrables sans inscription.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "générateur de brief",
+        "brief créatif",
+        "UGC",
+        "influenceurs"
+      ],
+      "auteur": "Sup",
+      "type_auteur": "outil",
+      "domaine": "sup.co",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-10"
+    },
+    {
       "id": "76edcfdbe2a3",
       "url": "https://www.notion.so/fr-fr/templates/category/competitive-analysis",
       "titre": "Modèles d'analyse concurrentielle Notion",
@@ -1430,7 +1535,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-09T00:26:50+00:00",
+  "mis_a_jour_le": "2026-10-10T00:04:26+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
