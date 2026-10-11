@@ -1,6 +1,72 @@
 {
   "items": [
     {
+      "id": "5433ee2ce0a3",
+      "url": "https://fr.linkedin.com/posts/mathis-faivre-2b2989252_ce-que-je-viens-de-construire-avec-claude-activity-7513833208518500352-jU_-",
+      "titre": "Outil Claude pour la stratégie créative data-driven",
+      "resume": "Une ressource gratuite développée sur Claude pour concevoir une stratégie créative basée sur la data. Permet d'analyser les performances pour alimenter ses briefs et concepts publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "stratégie créative",
+        "data",
+        "claude",
+        "ia",
+        "social ads"
+      ],
+      "auteur": "Mathis Faivre",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-11"
+    },
+    {
+      "id": "32fe439db5fc",
+      "url": "https://fr.linkedin.com/posts/poteau-jeremie_ia-apr%C3%A8s-avoir-jou%C3%A9-%C3%A0-penser-jai-fait-activity-7512154218259128321-3MGA",
+      "titre": "Breakdown marketing et créatif dans la lunetterie (22 pages)",
+      "resume": "Dossier de 22 pages décortiquant la stratégie marketing et créative d'une marque de lunetterie. Utile pour s'inspirer des concepts, positionnements et angles publicitaires applicables à l'e-commerce.",
+      "categorie": "Angles & concepts",
+      "tags": [
+        "breakdown créatif",
+        "lunetterie",
+        "angles pub",
+        "e-commerce",
+        "cas pratique"
+      ],
+      "auteur": "Poteau Jérémie",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-11"
+    },
+    {
+      "id": "a02b10268013",
+      "url": "https://www.figma.com/community/file/1664108966959505429/performance-ugc-campaign-brief-template",
+      "titre": "Template Figma de brief de campagne UGC de performance",
+      "resume": "Un modèle de brief Figma gratuit pour cadrer vos campagnes UGC avant le tournage. Il aide à définir les objectifs, les hooks, les règles d'usage et le suivi des créatifs.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "ugc",
+        "template figma",
+        "social ads",
+        "création publicitaire"
+      ],
+      "auteur": "Mainstage",
+      "type_auteur": "outil",
+      "domaine": "figma.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-11"
+    },
+    {
       "id": "b4324d4b2406",
       "url": "https://agencexplr.substack.com/p/reussir-vos-soldes-dete-nouvelle",
       "titre": "Checklist Soldes d'été & Veille Social Ads",
@@ -1579,7 +1645,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-10T23:37:34+00:00",
+  "mis_a_jour_le": "2026-10-11T23:43:31+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
