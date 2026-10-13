@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "id": "d84eb3a9d05f",
+      "url": "https://thatconverts.gumroad.com/l/20-ecommerce-ad-templates",
+      "titre": "20 Static Ads + 1 Landing Page Hero Template (Ecommerce)",
+      "resume": "Un template gratuit proposant 20 designs de publicités statiques et une page de vente pour l'e-commerce. Idéal pour s'inspirer de structures testées et accélérer la production de créas publicitaires.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "templates",
+        "publicité statique",
+        "e-commerce",
+        "design"
+      ],
+      "auteur": "ThatConverts",
+      "type_auteur": "freelance",
+      "domaine": "thatconverts.gumroad.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-13"
+    },
+    {
       "id": "5433ee2ce0a3",
       "url": "https://fr.linkedin.com/posts/mathis-faivre-2b2989252_ce-que-je-viens-de-construire-avec-claude-activity-7513833208518500352-jU_-",
       "titre": "Outil Claude pour la stratégie créative data-driven",
@@ -1645,7 +1666,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-13T02:04:49+00:00",
+  "mis_a_jour_le": "2026-10-13T23:44:57+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
