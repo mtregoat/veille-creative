@@ -1,6 +1,147 @@
 {
   "items": [
     {
+      "id": "87dfc69c9ad4",
+      "url": "https://dhsdigital.substack.com/p/57-10-verites-contre-intuitives-sur",
+      "titre": "10 vérités contre-intuitives sur Meta Ads",
+      "resume": "Guide gratuit d'agence proposant des conseils stratégiques pour l'optimisation des campagnes publicitaires Meta Ads.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "meta ads",
+        "social ads",
+        "stratégie"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "dhsdigital.substack.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-14"
+    },
+    {
+      "id": "1027efb3e3e7",
+      "url": "https://theophileburnet.substack.com/p/guide-offert-maitrisez-nano-banana",
+      "titre": "Guide offert : maîtrisez Nano Banana pour vos visuels",
+      "resume": "Guide gratuit pour apprendre à créer des visuels publicitaires cohérents et modifier les angles de caméra avec l'IA.",
+      "categorie": "Tendances visuelles",
+      "tags": [
+        "visuels",
+        "ia",
+        "génération d'images"
+      ],
+      "auteur": "Théophile Burnet",
+      "type_auteur": "freelance",
+      "domaine": "theophileburnet.substack.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-14"
+    },
+    {
+      "id": "546a2828953d",
+      "url": "https://alexadagostino.substack.com/p/100-high-converting-hooks-that-stop",
+      "titre": "100 High-Converting Hooks That Stop the Scroll and Drive Revenue",
+      "resume": "Banque de 100 hooks publicitaires testés et frameworks d'accroches pour stopper le scroll sur les réseaux sociaux.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks",
+        "accroches",
+        "conversion"
+      ],
+      "auteur": "Alexa D'Agostino",
+      "type_auteur": "freelance",
+      "domaine": "alexadagostino.substack.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-10-14"
+    },
+    {
+      "id": "e867216962c5",
+      "url": "https://www.linkedin.com/posts/nativyanko_im-a-dirty-thief-i-love-stealing-ads-activity-7505588879660326913-1JRZ",
+      "titre": "The Art of Stealing Ads: Dissecting What Works",
+      "resume": "Swipe file et analyse d'annonces publicitaires statiques performantes. Utile pour trouver des concepts et structurer ses créas.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "publicité statique",
+        "exemples pub"
+      ],
+      "auteur": "Nativ Yanko",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-14"
+    },
+    {
+      "id": "944077a0dfc6",
+      "url": "https://www.linkedin.com/posts/kushsheth23_20-new-static-ads-doesnt-mean-you-ran-20-activity-7510426799554863104-M1lj",
+      "titre": "Don't Test 20 Ads, Test 20 Different Bets",
+      "resume": "Guide étape par étape sur la méthodologie de creative testing publicitaire. Permet d'optimiser l'approche des tests de bannières.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "creative testing",
+        "stratégie",
+        "publicité"
+      ],
+      "auteur": "Kush Sheth",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-14"
+    },
+    {
+      "id": "134e6cd60d95",
+      "url": "https://www.linkedin.com/posts/mannyreyesm_1440-reportedly-spends-650kmo-on-meta-activity-7513291939031502848-AvmX",
+      "titre": "1440's $650K/Month Ad Spend Breakdown",
+      "resume": "Vidéo Loom détaillée décortiquant la répartition des types de créas publicitaires (statiques, UGC, faceless) d'un gros annonceur.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "analyse publicitaire",
+        "spend",
+        "meta ads"
+      ],
+      "auteur": "Manny Reyes",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-14"
+    },
+    {
+      "id": "94f25d39d052",
+      "url": "https://www.linkedin.com/posts/ross-puriasev_a-creator-can-hit-a-clear-brief-or-a-free-activity-7505554957551702016-8Zse",
+      "titre": "Creator Brief Template",
+      "resume": "Modèle d'un briefing créateur d'une page utilisé en agence pour structurer les campagnes UGC et vidéo. Idéal pour optimiser les briefs et cadrer le travail des créateurs de contenu.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief",
+        "créateur",
+        "UGC",
+        "template"
+      ],
+      "auteur": "Ross Puriasev",
+      "type_auteur": "agence",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-14"
+    },
+    {
       "id": "d84eb3a9d05f",
       "url": "https://thatconverts.gumroad.com/l/20-ecommerce-ad-templates",
       "titre": "20 Static Ads + 1 Landing Page Hero Template (Ecommerce)",
@@ -1666,7 +1807,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-13T23:44:57+00:00",
+  "mis_a_jour_le": "2026-10-14T23:17:41+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
