@@ -1,6 +1,116 @@
 {
   "items": [
     {
+      "id": "015077b765d6",
+      "url": "https://www.creabase.app/rapports",
+      "titre": "Rapports publicitaires Meta Ads en accès libre",
+      "resume": "Base de 28 rapports d'analyse décortiquant plus de 5 000 publicités Meta Ads de grandes marques françaises. Idéal pour analyser les formats, angles et concepts créatifs qui durent sur le marché.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "meta ads",
+        "benchmarks créatifs",
+        "rapports publicitaires",
+        "angles créatifs",
+        "créabase"
+      ],
+      "auteur": "Créabase",
+      "type_auteur": "outil",
+      "domaine": "creabase.app",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-17"
+    },
+    {
+      "id": "f296f69544ab",
+      "url": "https://www.figma.com/community/file/1090636617493057876/modele-charte-graphique-figma-digidop",
+      "titre": "Modèle de charte graphique Figma par Digidop",
+      "resume": "Un template Figma complet pour structurer la direction artistique d'une marque avec moodboard et choix visuels. Idéal pour poser les bases de marque avant de concevoir des campagnes publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "Figma",
+        "charte graphique",
+        "direction artistique",
+        "template",
+        "branding"
+      ],
+      "auteur": "Digidop",
+      "type_auteur": "agence",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-17"
+    },
+    {
+      "id": "eac06d306ca8",
+      "url": "https://substack.com/@ismax/note/c-323157553",
+      "titre": "Skill Claude Code : Directeur Créatif pour challenger vos idées",
+      "resume": "Un prompt/skill gratuit pour Claude Code exploitant plus de 20 méthodes créatives comme SCAMPER. Utile pour décliner une idée pub sous 7 angles différents et affiner ses concepts.",
+      "categorie": "IA & outils",
+      "tags": [
+        "Claude Code",
+        "IA créative",
+        "SCAMPER",
+        "angles créatifs",
+        "brainstorming"
+      ],
+      "auteur": "Isma",
+      "type_auteur": "freelance",
+      "domaine": "substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-17"
+    },
+    {
+      "id": "b53ef1dfec10",
+      "url": "https://www.creabase.app/rapport/wecandoo-6z26s",
+      "titre": "Rapport d'analyse des publicités Meta de Wecandoo",
+      "resume": "Analyse de 1600 publicités Meta de la marque Wecandoo décortiquant la répartition des formats, les concepts créatifs et les accroches pérennes. Utile pour s'inspirer de la stratégie d'acquisition et des formats statiques annotés d'un acteur du service.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "publicité meta",
+        "analyse créative",
+        "social ads",
+        "formats pub",
+        "wecandoo"
+      ],
+      "auteur": "Créabase",
+      "type_auteur": "outil",
+      "domaine": "creabase.app",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "boule de neige",
+      "ajoute_le": "2026-10-17"
+    },
+    {
+      "id": "e6f31902ca06",
+      "url": "https://www.linkedin.com/posts/ch%C3%A4mpi%C3%B6ns-m%C3%ABdi%C3%A4_writing-hooks-that-convert-activity-7511879643185139712-49vQ",
+      "titre": "Guide de la structure des hooks à forte conversion",
+      "resume": "Un breakdown structuré par une agence montrant l'architecture exacte des accroches publicitaires qui convertissent. Très utile pour concevoir les premières secondes de ses créas et scripts vidéo.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks",
+        "accroches pub",
+        "conversion",
+        "social ads",
+        "copywriting"
+      ],
+      "auteur": "Chämpiöns Mëdiä",
+      "type_auteur": "agence",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-17"
+    },
+    {
       "id": "5e0fca8e014a",
       "url": "https://fr.linkedin.com/posts/zachary-elmir_combien-d-vous-perdez-sur-meta-sans-le-activity-7509215399108968448-w5oh",
       "titre": "Guide / ressource d'optimisation publicitaire Meta, Google & TikTok Ads",
@@ -1829,7 +1939,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-16T22:53:16+00:00",
+  "mis_a_jour_le": "2026-10-17T22:24:43+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
