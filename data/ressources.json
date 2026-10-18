@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "9c8cc55080c6",
+      "url": "https://capitainehook.substack.com/p/notion-formation-gratuite-ugc",
+      "titre": "Formation UGC gratuite + Template Notion 2.0",
+      "resume": "Une formation vidéo complète accompagnée d'un hub Notion intégrant 1000 hooks vidéo, un modèle de contrat et un calendrier éditorial. Un kit clé en main parfait pour concevoir et structurer ses créatives UGC.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "UGC",
+        "hooks vidéo",
+        "template Notion",
+        "briefs créatifs",
+        "création de contenu"
+      ],
+      "auteur": "Capitaine Hook",
+      "type_auteur": "freelance",
+      "domaine": "capitainehook.substack.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-10-18"
+    },
+    {
+      "id": "f8f994e9d819",
+      "url": "https://www.influence4you.com/ressources/etudes/influence-levier-media",
+      "titre": "Étude : l'influence, le levier média le plus complet",
+      "resume": "Rapport comparatif évaluant 14 leviers média dont les Social Ads et l'influence selon les objectifs marketing. Permet d'alimenter la stratégie créative et le mix média.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "influence marketing",
+        "social ads",
+        "étude média",
+        "stratégie marketing"
+      ],
+      "auteur": "Influence4You",
+      "type_auteur": "agence",
+      "domaine": "influence4you.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-18"
+    },
+    {
       "id": "015077b765d6",
       "url": "https://www.creabase.app/rapports",
       "titre": "Rapports publicitaires Meta Ads en accès libre",
@@ -1939,7 +1982,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-17T22:24:43+00:00",
+  "mis_a_jour_le": "2026-10-18T22:27:30+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
