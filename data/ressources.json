@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "865b3affb9a0",
+      "url": "https://dhsdigital.substack.com/p/black-friday-on-a-monte-a-4-la-strategie",
+      "titre": "Kit Black Friday DHS Digital : Plan, hooks, veille de 121 créas et calculateur",
+      "resume": "Ressource complète incluant un calculateur de créas, une banque de hooks, une veille de 121 publicités inspirantes et une checklist. Indispensable pour concevoir et structurer ses campagnes publicitaires de fin d'année.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "black friday",
+        "hooks",
+        "stratégie créative",
+        "meta ads",
+        "e-commerce"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "dhsdigital.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 10,
+      "source": "recherche",
+      "ajoute_le": "2026-10-19"
+    },
+    {
       "id": "9c8cc55080c6",
       "url": "https://capitainehook.substack.com/p/notion-formation-gratuite-ugc",
       "titre": "Formation UGC gratuite + Template Notion 2.0",
@@ -1982,7 +2004,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-18T22:27:30+00:00",
+  "mis_a_jour_le": "2026-10-19T23:46:20+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
