@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "5062949d032a",
+      "url": "https://fr.linkedin.com/posts/visitic_virez-votre-agence-si-vous-lancez-des-campagnes-activity-7508397680931368960-OdrV",
+      "titre": "Guide complet pour optimiser ses campagnes Meta Ads",
+      "resume": "Ce guide proposé par l'agence Visitic détaille la méthodologie pour lancer et structurer des campagnes Meta efficaces. Il aide le creative strategist à aligner sa production créative sur les impératifs de performance de la plateforme.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "Meta Ads",
+        "guide pratique",
+        "social ads",
+        "acquisition",
+        "création publicitaire"
+      ],
+      "auteur": "Visitic",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-20"
+    },
+    {
+      "id": "dc774fb1e88f",
+      "url": "https://www.figma.com/community/file/1266023569395655081/moodboard-templates",
+      "titre": "Modèles de moodboards Figma",
+      "resume": "Kit contenant 6 modèles Figma pour structurer rapidement des moodboards. Pratique pour clarifier la direction artistique et les intentions visuelles avant la production de créas pub.",
+      "categorie": "Tendances visuelles",
+      "tags": [
+        "moodboard",
+        "figma",
+        "direction artistique",
+        "template"
+      ],
+      "auteur": "abcdstudio_",
+      "type_auteur": "freelance",
+      "domaine": "figma.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-10-20"
+    },
+    {
       "id": "865b3affb9a0",
       "url": "https://dhsdigital.substack.com/p/black-friday-on-a-monte-a-4-la-strategie",
       "titre": "Kit Black Friday DHS Digital : Plan, hooks, veille de 121 créas et calculateur",
@@ -2004,7 +2047,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-19T23:46:20+00:00",
+  "mis_a_jour_le": "2026-10-20T23:13:18+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
