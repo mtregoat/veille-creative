@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "a27eee9b9f28",
+      "url": "https://www.creabase.app/exemples",
+      "titre": "Rapports d'analyse publicitaire Decathlon (Meta, TikTok, Google)",
+      "resume": "Trois rapports d'espionnage créatif détaillant les publicités, angles, concepts et formats de Decathlon sur Meta et TikTok. Idéal pour s'inspirer des meilleures pratiques de marques établies.",
+      "categorie": "Angles & concepts",
+      "tags": [
+        "analyse créative",
+        "meta ads",
+        "tiktok ads",
+        "ad spy",
+        "e-commerce"
+      ],
+      "auteur": "Créabase",
+      "type_auteur": "outil",
+      "domaine": "creabase.app",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-21"
+    },
+    {
       "id": "5062949d032a",
       "url": "https://fr.linkedin.com/posts/visitic_virez-votre-agence-si-vous-lancez-des-campagnes-activity-7508397680931368960-OdrV",
       "titre": "Guide complet pour optimiser ses campagnes Meta Ads",
@@ -2047,7 +2069,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-20T23:13:18+00:00",
+  "mis_a_jour_le": "2026-10-21T23:25:22+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
