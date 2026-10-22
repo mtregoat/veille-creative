@@ -1,6 +1,50 @@
 {
   "items": [
     {
+      "id": "8cf6eac3ebec",
+      "url": "https://www.notion.com/templates/influencer-brief-viral-app",
+      "titre": "Template Notion de Brief Créateur UGC pour TikTok, Reels et Shorts",
+      "resume": "Un template Notion gratuit proposant un brief réutilisable, un suiveur de livrables, une checklist et deux exemples complets. Permet de cadrer précisément ses campagnes UGC pour les réseaux sociaux.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "ugc",
+        "notion template",
+        "tiktok ads",
+        "script vidéo"
+      ],
+      "auteur": "viral.app — UGC Copilot",
+      "type_auteur": "outil",
+      "domaine": "notion.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-22"
+    },
+    {
+      "id": "4877d655e313",
+      "url": "https://www.225media.com/resources/ugc-brief",
+      "titre": "Guide et Template de Brief UGC pour Créateurs Vidéo",
+      "resume": "Un guide complet d'agence accompagné d'un modèle de brief UGC prêt à copier. Idéal pour structurer les accroches, les scripts et les livrables à transmettre aux créateurs.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief ugc",
+        "template brief",
+        "social ads",
+        "scripts vidéo",
+        "créateurs ugc"
+      ],
+      "auteur": "225 Media",
+      "type_auteur": "agence",
+      "domaine": "225media.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-22"
+    },
+    {
       "id": "a27eee9b9f28",
       "url": "https://www.creabase.app/exemples",
       "titre": "Rapports d'analyse publicitaire Decathlon (Meta, TikTok, Google)",
@@ -2069,7 +2113,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-21T23:25:22+00:00",
+  "mis_a_jour_le": "2026-10-22T23:26:26+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
