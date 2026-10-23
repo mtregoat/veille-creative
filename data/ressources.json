@@ -1,6 +1,72 @@
 {
   "items": [
     {
+      "id": "bb9c98bc9060",
+      "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_comment-nos-creative-strategists-%C3%A9crivent-activity-7516400438339072000-yDWQ",
+      "titre": "Méthode de veille créative et rédaction de concepts publicitaires",
+      "resume": "Guide sur la méthode utilisée par l'agence pour identifier les publicités performantes et concevoir des concepts créatifs gagnants. Disponible sur demande en commentaire du post LinkedIn.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "creative strategist",
+        "social ads",
+        "concepts créatifs",
+        "veille publicitaire",
+        "formats pub"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 9,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-23"
+    },
+    {
+      "id": "a1119933320f",
+      "url": "https://wearesocial.com/us/blog/2026/10/digital-2027",
+      "titre": "Digital 2027 Report",
+      "resume": "Le rapport annuel complet rédigé par l'agence We Are Social sur les usages digitaux, les réseaux sociaux et l'IA dans le monde. Indispensable pour la veille stratégique et comprendre les tendances de consommation des contenus.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "rapport de tendances",
+        "social media",
+        "usages digitaux",
+        "e-commerce",
+        "stratégie social ads"
+      ],
+      "auteur": "We Are Social",
+      "type_auteur": "agence",
+      "domaine": "wearesocial.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-23"
+    },
+    {
+      "id": "35ed0b6e07e9",
+      "url": "https://wearesocial.com/us/blog/2026/10/digital-2027-your-guide-to-the-evolving-digital-world/",
+      "titre": "Digital 2027 : Rapport mondial sur les tendances digitales - We Are Social",
+      "resume": "Ce rapport incontournable présente les dernières statistiques et tendances globales sur le numérique, les réseaux sociaux et l'usage de l'IA. Il aide les creative strategists à comprendre l'évolution des usages média pour orienter leurs concepts créatifs.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "tendances digitales",
+        "rapport annuel",
+        "réseaux sociaux",
+        "statistiques",
+        "social media"
+      ],
+      "auteur": "We Are Social",
+      "type_auteur": "agence",
+      "domaine": "wearesocial.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "boule de neige",
+      "ajoute_le": "2026-10-23"
+    },
+    {
       "id": "8cf6eac3ebec",
       "url": "https://www.notion.com/templates/influencer-brief-viral-app",
       "titre": "Template Notion de Brief Créateur UGC pour TikTok, Reels et Shorts",
@@ -2113,7 +2179,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-22T23:26:26+00:00",
+  "mis_a_jour_le": "2026-10-23T23:12:28+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
