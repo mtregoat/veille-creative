@@ -1,6 +1,50 @@
 {
   "items": [
     {
+      "id": "452e89d15578",
+      "url": "https://metricool.com/fr/calendrier-social-media-2026",
+      "titre": "Calendrier Social Media 2026 : 250 marronniers marketing (PDF)",
+      "resume": "Un calendrier au format PDF regroupant plus de 250 dates clés et marronniers de l'année. Idéal pour planifier ses temps forts créatifs et anticiper ses campagnes sur les réseaux sociaux.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "calendrier marketing",
+        "marronniers",
+        "planning éditorial",
+        "social media",
+        "idées de contenu"
+      ],
+      "auteur": "Metricool",
+      "type_auteur": "outil",
+      "domaine": "metricool.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-24"
+    },
+    {
+      "id": "88b1e2febaa1",
+      "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_notre-fiche-strat%C3%A9gique-black-friday-c%C3%A9tait-activity-7517850255640645632-FMwb",
+      "titre": "Fiche stratégique Black Friday",
+      "resume": "Un modèle Google Sheet interactif permettant de calculer ses marges, objectifs et budgets pour la période du Black Friday. Un outil pratique pour structurer ses campagnes et sa stratégie média.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "black friday",
+        "e-commerce",
+        "social ads",
+        "google sheet",
+        "stratégie"
+      ],
+      "auteur": "Danilo Duchesnes",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-24"
+    },
+    {
       "id": "bb9c98bc9060",
       "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_comment-nos-creative-strategists-%C3%A9crivent-activity-7516400438339072000-yDWQ",
       "titre": "Méthode de veille créative et rédaction de concepts publicitaires",
@@ -2179,7 +2223,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-23T23:12:28+00:00",
+  "mis_a_jour_le": "2026-10-24T22:32:48+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
