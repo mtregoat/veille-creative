@@ -1,6 +1,116 @@
 {
   "items": [
     {
+      "id": "09c550bd0c79",
+      "url": "https://fr.linkedin.com/posts/eyesee_monoprix-x-pop-club-activity-7515788577713119232-4sDN",
+      "titre": "Guide des 12 usages et workflows de production vidéo/créa",
+      "resume": "Un guide pratique détaillant 12 cas d'usage et des workflows prêts à l'emploi pour structurer la création de contenu. Utile pour optimiser la production et les briefs de déclinaisons publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "workflow",
+        "production vidéo",
+        "studio créatif",
+        "social ads",
+        "guide"
+      ],
+      "auteur": "Eyesee",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 9,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-25"
+    },
+    {
+      "id": "3d120f4d98ab",
+      "url": "https://fr.linkedin.com/posts/michaellunet-directeur-artistique-senior_directionartistique-iagenerative-cosmetique-activity-7513857368796069891-HLrG",
+      "titre": "Guide et cas d'études de Direction Artistique par IA générative",
+      "resume": "Un guide incluant 5 cas d'étude détaillés et des visuels haute définition pour maîtriser la direction artistique via l'IA. Idéal pour trouver des concepts et briefs visuels percutants.",
+      "categorie": "Tendances visuelles",
+      "tags": [
+        "direction artistique",
+        "ia générative",
+        "cas d'étude",
+        "prompts",
+        "visuels pub"
+      ],
+      "auteur": "Michael Lunet",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-25"
+    },
+    {
+      "id": "a8aa5d96cddc",
+      "url": "https://fr.linkedin.com/posts/raphael-malka-textile-entrepreneur_carousel-visage-ia-activity-7510598418835095553-J6Ws",
+      "titre": "Guide complet sur la création d'avatars IA ultra-réalistes",
+      "resume": "Un guide expliquant la méthode pour générer des visages et avatars IA réalistes. Pratique pour créer des personnages virtuels destinés à des publicités vidéo ou UGC.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "avatar ia",
+        "intelligence artificielle",
+        "ugc",
+        "création vidéo",
+        "guide"
+      ],
+      "auteur": "Raphaël Malka",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-25"
+    },
+    {
+      "id": "f3361e490c44",
+      "url": "https://asana.com/resources/design-brief",
+      "titre": "Créer un brief de design en 7 étapes (avec modèle gratuit)",
+      "resume": "Un guide méthodologique accompagné d'un modèle gratuit pour structurer efficacement un brief créatif. Idéal pour cadrer les besoins visuels et aligner les équipes créatives sur les objectifs du projet.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "template",
+        "design",
+        "organisation",
+        "gestion de projet"
+      ],
+      "auteur": "Asana",
+      "type_auteur": "outil",
+      "domaine": "asana.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "web",
+      "ajoute_le": "2026-10-25"
+    },
+    {
+      "id": "f66bb522b080",
+      "url": "https://www.moonb.io/templates/creative-brief-template",
+      "titre": "Template de brief créatif gratuit (PDF & Word)",
+      "resume": "Un modèle de brief créatif complet à télécharger aux formats PDF et Word remplissables. Il comprend 8 sections clés, un exemple concrètement renseigné et une checklist de validation.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "template PDF",
+        "stratégie créative",
+        "cadrage vidéo",
+        "social ads"
+      ],
+      "auteur": "Moonb",
+      "type_auteur": "agence",
+      "domaine": "moonb.io",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-25"
+    },
+    {
       "id": "452e89d15578",
       "url": "https://metricool.com/fr/calendrier-social-media-2026",
       "titre": "Calendrier Social Media 2026 : 250 marronniers marketing (PDF)",
@@ -2223,7 +2333,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-24T22:32:48+00:00",
+  "mis_a_jour_le": "2026-10-25T22:37:19+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
