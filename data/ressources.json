@@ -1,6 +1,160 @@
 {
   "items": [
     {
+      "id": "3c47c2893379",
+      "url": "https://fr.linkedin.com/posts/jonathan-hatchi-a9b33a177_7-prompts-pour-faire-planifier-tes-30-prochains-activity-7517932879709057025-RZt_",
+      "titre": "7 prompts pour planifier 30 jours de contenu Instagram",
+      "resume": "Un kit gratuit composé de 7 prompts IA, un calendrier éditorial sur 30 jours et une banque de hooks pour Reels. Idéal pour trouver des idées de concepts et accroches rapidement.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "prompts",
+        "hooks",
+        "reels",
+        "instagram",
+        "calendrier editorial"
+      ],
+      "auteur": "Jonathan Hatchi",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-26"
+    },
+    {
+      "id": "c817ec688d37",
+      "url": "https://www.influencer-hero.com/fr/blogs/influencer-marketing-brief-template",
+      "titre": "Comment rédiger un Brief d'Influencer Efficace [+ Modèle Gratuit]",
+      "resume": "Guide pratique incluant un modèle gratuit de brief pour encadrer les créateurs de contenu et influenceurs. Permet de cadrer les attentes créatives pour des tournages UGC efficaces.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief influenceur",
+        "UGC",
+        "modèle gratuit",
+        "partenariat créateur",
+        "stratégie créative"
+      ],
+      "auteur": "Influencer Hero",
+      "type_auteur": "outil",
+      "domaine": "influencer-hero.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "web",
+      "ajoute_le": "2026-10-26"
+    },
+    {
+      "id": "72cb5bd668e4",
+      "url": "https://wevion.ai/fr/blog/chatgpt-for-facebook-ads-prompts-guide",
+      "titre": "ChatGPT pour Facebook Ads : 30 prompts testés",
+      "resume": "Une banque de 30 prompts ChatGPT spécialisés pour concevoir la copy publicitaire, les titres et les briefs créatifs Meta Ads. Idéal pour accélérer la génération d'angles et d'accroches.",
+      "categorie": "IA & outils",
+      "tags": [
+        "prompts chatgpt",
+        "facebook ads",
+        "copywriting",
+        "briefs créatifs",
+        "meta ads"
+      ],
+      "auteur": "Wevion",
+      "type_auteur": "outil",
+      "domaine": "wevion.ai",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "web",
+      "ajoute_le": "2026-10-26"
+    },
+    {
+      "id": "d4fc8a8dad80",
+      "url": "https://www.figma.com/community/file/1385679224153676311/ecommerce-ads-landing-pages-guide-i",
+      "titre": "Guide & Swipe File Figma : Publicités E-commerce et Landing Pages",
+      "resume": "Un fichier Figma communautaire décortiquant les meilleures publicités et pages de conversion de marques D2C. Très utile pour s'inspirer des formats visuels et des structures de landing pages publicitaires.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "figma",
+        "e-commerce",
+        "ads",
+        "landing page",
+        "d2c"
+      ],
+      "auteur": "",
+      "type_auteur": "autre",
+      "domaine": "figma.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-26"
+    },
+    {
+      "id": "9eb0729a8749",
+      "url": "https://ugc.live/tools/ugc-brief-template",
+      "titre": "Générateur de brief UGC gratuit et interactif",
+      "resume": "Un outil en ligne gratuit permettant de structurer et générer rapidement des briefs créatifs pour des tournages UGC. Il permet de spécifier le produit, les hooks, les formats attendus et les droits d'utilisation à transmettre aux créateurs.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief UGC",
+        "UGC",
+        "template brief",
+        "créateurs vidéo",
+        "social ads"
+      ],
+      "auteur": "UGC Live",
+      "type_auteur": "outil",
+      "domaine": "ugc.live",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-26"
+    },
+    {
+      "id": "e9529358f37b",
+      "url": "https://www.notion.com/templates/canvas-ugc-launch-kit-viral-app",
+      "titre": "Kit de lancement de campagnes UGC sur Notion",
+      "resume": "Template Notion prêt à l'emploi pour piloter des campagnes UGC avec annuaire de créateurs, checklists et jalons de validation. Permet d'organiser la production vidéo de A à Z.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "template notion",
+        "kit ugc",
+        "brief vidéo",
+        "gestion de créateurs",
+        "organisation créative"
+      ],
+      "auteur": "viral.app",
+      "type_auteur": "outil",
+      "domaine": "notion.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-26"
+    },
+    {
+      "id": "c36c0eec5233",
+      "url": "https://www.linkedin.com/posts/joe-marston_we-shipped-20000-new-meta-ads-in-september-activity-7517850495097495552-nr3V",
+      "titre": "Swipe File Meta Ads : Formats performants et anatomie de scripts",
+      "resume": "Ressource regroupant les meilleurs formats statiques et vidéo du moment ainsi que 9 techniques de scripts publicitaires. Un excellent swipe file pour générer de nouveaux concepts créatifs.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "meta ads",
+        "scripts vidéo",
+        "formats statiques",
+        "concepts créatifs"
+      ],
+      "auteur": "Joe Marston",
+      "type_auteur": "agence",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-26"
+    },
+    {
       "id": "09c550bd0c79",
       "url": "https://fr.linkedin.com/posts/eyesee_monoprix-x-pop-club-activity-7515788577713119232-4sDN",
       "titre": "Guide des 12 usages et workflows de production vidéo/créa",
@@ -2333,7 +2487,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-25T22:37:19+00:00",
+  "mis_a_jour_le": "2026-10-26T23:55:50+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
