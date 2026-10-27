@@ -1,6 +1,137 @@
 {
   "items": [
     {
+      "id": "6bc606f7b0f8",
+      "url": "https://wearesocial.com/fr/blog/2026/10/digital-2027",
+      "titre": "Digital 2027 - We Are Social France",
+      "resume": "Le rapport annuel de référence sur l'évolution du monde numérique, des médias sociaux, de l'IA et du e-commerce. Indispensable pour nourrir sa veille stratégique et repérer les nouveaux usages.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "rapport de tendances",
+        "social media",
+        "e-commerce",
+        "IA",
+        "usages numériques"
+      ],
+      "auteur": "We Are Social France",
+      "type_auteur": "agence",
+      "domaine": "wearesocial.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 10,
+      "source": "web",
+      "ajoute_le": "2026-10-27"
+    },
+    {
+      "id": "3e67f802fcba",
+      "url": "https://manon-verbeke-design.notion.site/Les-carrousels-des-Queens-Kings-pour-s-inspirer-8b852183468c4af5b22792157667cbb1",
+      "titre": "Swipe File : Queens & Kings des carrousels",
+      "resume": "Une base de données Notion regroupant des exemples inspirants de carrousels pour identifier les dernières tendances visuelles. Très utile pour trouver des idées de layouts, de hooks et de structures pour des formats carrousels.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "carrousel",
+        "swipe file",
+        "inspiration créative",
+        "design",
+        "format statique"
+      ],
+      "auteur": "Manon Verbeke",
+      "type_auteur": "freelance",
+      "domaine": "manon-verbeke-design.notion.site",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-27"
+    },
+    {
+      "id": "867710c9b59f",
+      "url": "https://fr.linkedin.com/posts/sergey-likharyev_tu-veux-%C3%AAtre-viral-sur-les-r%C3%A9seaux-activity-7511703409465536512-jTgn",
+      "titre": "Guide complet et points clés pour devenir viral sur les réseaux",
+      "resume": "Guide gratuit envoyé après commentaire LinkedIn proposant une liste de points et d'accroches à réutiliser pour ses contenus viraux. Utile pour alimenter sa banque de hooks et de concepts.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "virallité",
+        "hooks",
+        "réseaux sociaux",
+        "concepts créatifs"
+      ],
+      "auteur": "Sergey Likharyev",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-27"
+    },
+    {
+      "id": "a720b8bcd0c8",
+      "url": "https://fr.linkedin.com/posts/guillaume-kuhn-monteurvideo_vous-connaissez-le-paradoxe-de-jevons-activity-7512783908170792960-Mp3r",
+      "titre": "Template de brief vidéo pour montage et créas publicitaires",
+      "resume": "Un modèle de brief vidéo structuré pour cadrer le traitement des rushs, du B-roll et du rythme de montage. Utile pour briefer efficacement ses monteurs sur des vidéos publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "montage vidéo",
+        "création publicitaire",
+        "UGC",
+        "video ads"
+      ],
+      "auteur": "Guillaume Kuhn",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-27"
+    },
+    {
+      "id": "86f56070af57",
+      "url": "https://www.linkedin.com/posts/joe-marston_we-built-the-ultimate-dtc-ad-swipe-file-for-activity-7520821869445414912-d9mD",
+      "titre": "Swipe file publicitaire DTC : 35 styles d'annonces statiques et 100+ exemples",
+      "resume": "Un swipe file regroupant 35 styles de publicités statiques e-commerce classés par étape du tunnel de conversion. Idéal pour inspirer le design et la structure de vos créations publicitaires DTC.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "social ads",
+        "DTC",
+        "format statique",
+        "e-commerce"
+      ],
+      "auteur": "Joe Marston",
+      "type_auteur": "agence",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-27"
+    },
+    {
+      "id": "5efecd652bd0",
+      "url": "https://www.linkedin.com/posts/dsqjaffa_bloom-poppi-cal-ai-spent-millions-testing-activity-7518657558828630016-e4aP",
+      "titre": "Swipe file de 380 TikToks performants et prompts Claude associés",
+      "resume": "Une sélection de 380 vidéos TikTok d'accroche issues de marques e-commerce majeures, accompagnée de prompts Claude. Permet de déconstruire les concepts vidéo pour rédiger de meilleurs briefs et scripts créatifs.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "TikTok",
+        "swipe file",
+        "UGC",
+        "prompts IA",
+        "hooks vidéo"
+      ],
+      "auteur": "Jaife Esienna",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-27"
+    },
+    {
       "id": "3c47c2893379",
       "url": "https://fr.linkedin.com/posts/jonathan-hatchi-a9b33a177_7-prompts-pour-faire-planifier-tes-30-prochains-activity-7517932879709057025-RZt_",
       "titre": "7 prompts pour planifier 30 jours de contenu Instagram",
@@ -2487,7 +2618,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-26T23:55:50+00:00",
+  "mis_a_jour_le": "2026-10-27T23:49:51+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
