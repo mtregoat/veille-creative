@@ -1,6 +1,48 @@
 {
   "items": [
     {
+      "id": "1e22f09f3e02",
+      "url": "https://fr.linkedin.com/posts/ugctheo_100-000-vues-en-2-semaines-et-seulement-activity-7518422290276204545-RTxl",
+      "titre": "Guide et méthodes pour tester des formats vidéo et UGC",
+      "resume": "Ressource offerte sur LinkedIn pour apprendre à tester efficacement plusieurs créateurs et formats vidéo UGC sans exploser son budget. Utile pour concevoir des scripts et briefs vidéo engageants.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "ugc",
+        "formats video",
+        "creative testing",
+        "tiktok ads"
+      ],
+      "auteur": "Théo M.",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-29"
+    },
+    {
+      "id": "92ab0973c0f5",
+      "url": "https://manon-verbeke-design.notion.site/Les-carrousels-des-Queens-Kings-pour-s-inspirer-8b852183468c4af5b22792157667cbb1?pvs=4",
+      "titre": "Swipe file Notion de carrousels inspirants",
+      "resume": "Une sélection de carrousels décortiqués avec des analyses visuelles et narratives. Permet d'inspirer la conception de formats carrousel engageants.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "Carrousel",
+        "Swipe file",
+        "Inspiration créative",
+        "Notion"
+      ],
+      "auteur": "Manon Verbeke",
+      "type_auteur": "freelance",
+      "domaine": "manon-verbeke-design.notion.site",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-10-29"
+    },
+    {
       "id": "6bc606f7b0f8",
       "url": "https://wearesocial.com/fr/blog/2026/10/digital-2027",
       "titre": "Digital 2027 - We Are Social France",
@@ -2618,7 +2660,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-27T23:49:51+00:00",
+  "mis_a_jour_le": "2026-10-29T00:02:12+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
