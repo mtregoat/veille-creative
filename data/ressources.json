@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "id": "1ef82c5edc81",
+      "url": "https://fr.linkedin.com/posts/caroline-rousset_le-brief-ugc-instagram-que-jenvoie-aux-cr%C3%A9ateurs-activity-7515288552126136321-C7Mv",
+      "titre": "Template de brief UGC Instagram pour SaaS",
+      "resume": "Un modèle de brief UGC complet pour cadrer les tournages des créateurs de contenu. Un outil très pratique pour structurer la création de publicités vidéo performantes.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "UGC",
+        "Instagram",
+        "SaaS",
+        "template"
+      ],
+      "auteur": "Caroline ROUSSET",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-29"
+    },
+    {
+      "id": "b27ae48035dc",
+      "url": "https://www.figma.com/community/file/1389497346050491121/the-ugc-guide-for-ecommerce",
+      "titre": "The UGC Guide for Ecommerce | Figma",
+      "resume": "Fichier Figma contenant un swipe file complet de publicités UGC e-commerce performantes. Idéal pour inspirer la création de scripts vidéo et de formats publicitaires engageants.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "UGC",
+        "swipe file",
+        "Figma",
+        "e-commerce",
+        "social ads"
+      ],
+      "auteur": "Figma Community",
+      "type_auteur": "autre",
+      "domaine": "figma.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-29"
+    },
+    {
+      "id": "f777802a9abc",
+      "url": "https://revenueenginenews.beehiiv.com/p/the-revenue-engine-newsletter-d778",
+      "titre": "Swipe file LinkedIn Ads : 9 structures de phrases à fort taux de conversion",
+      "resume": "Un guide pratique répertoriant 9 modèles de phrases et d'accroches répétables pour les annonces LinkedIn B2B. Permet aux creative strategists de structurer les hooks et le copywriting selon le niveau de maturité de l'audience.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "linkedin ads",
+        "hooks",
+        "copywriting",
+        "swipe file",
+        "b2b"
+      ],
+      "auteur": "T.A. Monroe",
+      "type_auteur": "agence",
+      "domaine": "revenueenginenews.beehiiv.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-10-29"
+    },
+    {
+      "id": "2747c53e1467",
+      "url": "https://tamonroe.com/free-resources/linkedin-ads-swipe-file/?amp%3Butm_medium=email&amp%3Butm_campaign=beehiiv_newsletter&amp%3Butm_content=ureb",
+      "titre": "Swipe File LinkedIn Ads : +100 publicités gagnantes",
+      "resume": "Une sélection de plus de 100 exemples de publicités LinkedIn performantes accompagnée de modèles de textes et de formats visuels. Une ressource idéale pour s'inspirer et concevoir des créatives B2B à fort impact.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "LinkedIn Ads",
+        "swipe file",
+        "copywriting",
+        "formats publicitaires",
+        "inspiration créative"
+      ],
+      "auteur": "T.A. Monroe",
+      "type_auteur": "agence",
+      "domaine": "tamonroe.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "boule de neige",
+      "ajoute_le": "2026-10-29"
+    },
+    {
       "id": "1e22f09f3e02",
       "url": "https://fr.linkedin.com/posts/ugctheo_100-000-vues-en-2-semaines-et-seulement-activity-7518422290276204545-RTxl",
       "titre": "Guide et méthodes pour tester des formats vidéo et UGC",
@@ -2660,7 +2748,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-29T00:02:12+00:00",
+  "mis_a_jour_le": "2026-10-29T23:58:37+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
