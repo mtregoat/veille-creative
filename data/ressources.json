@@ -1,6 +1,135 @@
 {
   "items": [
     {
+      "id": "d2073bbbd77c",
+      "url": "https://fr.linkedin.com/pulse/vos-clients-veulent-plus-vite-sans-payer-les-chiffres-marie-robin-4rmnc",
+      "titre": "Guide des 50 systèmes pour la stratégie créative et les agences",
+      "resume": "Un guide téléchargeable proposant 50 systèmes pour accélérer le travail en agence, centré sur la stratégie créative et le média planning. Permet de mieux structurer la conception créative et d'optimiser les process.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "stratégie créative",
+        "guide",
+        "agences",
+        "systèmes",
+        "processus créatif"
+      ],
+      "auteur": "Marie Robin",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "47e93f53be84",
+      "url": "https://swello.com/fr/blog/calendrier-social-media",
+      "titre": "Calendrier marketing 2027 : toutes les dates clés (+PDF)",
+      "resume": "Un calendrier marketing au format PDF et .ics recensant plus de 250 dates clés et marronniers. Idéal pour anticiper ses campagnes publicitaires et trouver des thématiques de créas saisonnières.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "calendrier marketing",
+        "marronniers",
+        "social media",
+        "planning"
+      ],
+      "auteur": "Swello",
+      "type_auteur": "outil",
+      "domaine": "swello.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "web",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "5bb7f71c343e",
+      "url": "https://swll.to/tendances-social-media-2026",
+      "titre": "Rapport Tendances Social Media 2026",
+      "resume": "Un rapport PDF complet recensant les tendances phares des réseaux sociaux pour 2026. Utile pour inspirer les concepts créatifs et anticiper l'évolution des algorithmes et formats.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "tendances social media",
+        "étude 2026",
+        "réseaux sociaux",
+        "swello"
+      ],
+      "auteur": "Swello",
+      "type_auteur": "outil",
+      "domaine": "swll.to",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "boule de neige",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "206606e04609",
+      "url": "https://swll.to/guide-2025",
+      "titre": "Guide 2025 des formats sur les réseaux sociaux",
+      "resume": "Guide récapitulant les dimensions et spécifications techniques recommandées pour chaque réseau social. Idéal pour calibrer et décliner ses visuels publicitaires.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "formats pub",
+        "dimensions visuels",
+        "spécifications",
+        "swello"
+      ],
+      "auteur": "Swello",
+      "type_auteur": "outil",
+      "domaine": "swll.to",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 7,
+      "source": "boule de neige",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "281c067fcdbb",
+      "url": "https://datareportal.com/reports/digital-2027-global-overview-report",
+      "titre": "Digital 2027 Global Overview Report",
+      "resume": "Le rapport annuel de référence publié par We Are Social et Meltwater regroupant plus de 900 graphiques sur l'usage du numérique et des réseaux sociaux. Idéal pour appuyer ses choix stratégiques et créatifs sur des données d'usage globales.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "We Are Social",
+        "tendances social media",
+        "étude digitale",
+        "rapport PDF",
+        "comportement utilisateur"
+      ],
+      "auteur": "We Are Social & Meltwater",
+      "type_auteur": "agence",
+      "domaine": "datareportal.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "72186820f0ff",
+      "url": "https://ads.tiktok.com/business/library/Driving_Leads_Growth_TikTok.pdf",
+      "titre": "The Leads Growth Playbook",
+      "resume": "Playbook PDF officiel TikTok détaillant la structure idéale d'une publicité vidéo, l'optimisation des hooks dans les 5 premières secondes et les codes créatifs performants. Très utile pour concevoir des scripts et vidéos orientés performance.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "TikTok Ads",
+        "playbook",
+        "hooks vidéo",
+        "création publicitaire",
+        "lead generation"
+      ],
+      "auteur": "TikTok",
+      "type_auteur": "outil",
+      "domaine": "ads.tiktok.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "exploration",
+      "ajoute_le": "2026-10-31"
+    },
+    {
       "id": "fe34a5e2a778",
       "url": "https://www.figma.com/community/file/1289589704284287852/high-performing-static-ad-template-1",
       "titre": "High Performing Static-Ad Template #1 | Figma",
@@ -2814,7 +2943,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-30T23:52:47+00:00",
+  "mis_a_jour_le": "2026-10-31T23:26:30+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
