@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "id": "f3a988d07f2c",
+      "url": "https://outils.dhsdigital.eu/hooks-copys-black-friday/",
+      "titre": "Banque de hooks et de copys Black Friday · DHS Digital",
+      "resume": "Une ressource interactive regroupant 16 hooks vidéo, 8 formats UGC performants et des scripts de textes publicitaires prêts à l'emploi. Elle permet aux creative strategists de décliner rapidement leurs visuels et messages pour les fêtes.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks vidéo",
+        "copywriting",
+        "black friday",
+        "ugc",
+        "meta ads"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "outils.dhsdigital.eu",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 10,
+      "source": "boule de neige",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "6ca39ede2964",
+      "url": "https://dhsdigital.substack.com/p/107-la-seule-tache-de-creative-strategy",
+      "titre": "Skill d'automatisation de veille et swipe file créatif",
+      "resume": "Skill et script IA gratuits pour automatiser la collecte et l'enregistrement de publicités tendance dans son swipe file. Permet aux creative strategists de constituer leur veille publicitaire sans effort manuel.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "swipe file",
+        "creative strategy",
+        "automatisation",
+        "claude ai",
+        "veille pub"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "dhsdigital.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "fcbae4670283",
+      "url": "https://outils.dhsdigital.eu/kit-black-friday",
+      "titre": "Kit Black Friday · DHS Digital",
+      "resume": "Suite complète d'outils interactifs, calculateurs de budget et templates de planification créative pour préparer ses campagnes de fin d'année. Permet de définir ses offres, son calendrier et sa feuille de route publicitaire.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "black friday",
+        "calculateur budget",
+        "social ads",
+        "e-commerce",
+        "plan media"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "outils.dhsdigital.eu",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "web",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "804d09a54276",
+      "url": "https://www.linkedin.com/posts/ben-philabaum-0938756_which-ad-won-a-or-b-these-two-ads-ran-activity-7031381697619255296-WWh6",
+      "titre": "Swipe file de 298 publicités Meta analysées",
+      "resume": "Un swipe file regroupant 298 exemples de publicités social ads accompagnés de leur analyse de performance. Utile pour alimenter ses briefs créatifs et trouver de nouveaux formats.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "facebook ads",
+        "social ads",
+        "exemples pub",
+        "creative testing"
+      ],
+      "auteur": "Ben Philabaum",
+      "type_auteur": "agence",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-01"
+    },
+    {
       "id": "d2073bbbd77c",
       "url": "https://fr.linkedin.com/pulse/vos-clients-veulent-plus-vite-sans-payer-les-chiffres-marie-robin-4rmnc",
       "titre": "Guide des 50 systèmes pour la stratégie créative et les agences",
@@ -2943,7 +3031,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-10-31T23:26:30+00:00",
+  "mis_a_jour_le": "2026-11-01T23:40:09+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
