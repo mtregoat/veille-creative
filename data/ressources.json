@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "6d786233a922",
+      "url": "https://fr.linkedin.com/posts/enis-o-6ab3a4207_ne-cr%C3%A9e-jamais-une-nouvelle-audience-juste-activity-7520386318242091008--Y9f",
+      "titre": "Matrice de 12 combinaisons créatives pour Social Ads",
+      "resume": "Un framework combinant 3 formats créatifs, 2 hooks et 2 body copies pour générer 12 déclinaisons de publicités payantes. Idéal pour structurer ses sessions de creative testing et accélérer la production d'assets.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "creative testing",
+        "hooks",
+        "formats pub",
+        "social ads",
+        "copywriting"
+      ],
+      "auteur": "Enis O.",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-04"
+    },
+    {
       "id": "f1adc0f46687",
       "url": "https://fr.linkedin.com/posts/yohann-nezri-expert-digitalisation_google-va-modifier-le-comptage-des-impressions-activity-7519284112591876096-W74-",
       "titre": "Guide pratique : Connecter et utiliser Claude avec Meta Ads",
@@ -3053,7 +3075,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-03T02:24:20+00:00",
+  "mis_a_jour_le": "2026-11-04T00:39:13+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
