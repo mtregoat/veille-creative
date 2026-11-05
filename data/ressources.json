@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "bb267eec7a4f",
+      "url": "https://fr.linkedin.com/posts/noblejonathan_cest-facile-de-cr%C3%A9er-une-vid%C3%A9o-virale-sur-activity-7523655783364939776-HNYp",
+      "titre": "Livre blanc TikTok 2026",
+      "resume": "Un livre blanc complet de 43 pages pour comprendre l'algorithme TikTok, TikTok Ads et la création de contenu optimisé. Idéal pour structurer ses stratégies créatives et formats vidéo sur le réseau.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "TikTok Ads",
+        "création vidéo",
+        "livre blanc",
+        "stratégie vidéo",
+        "TikTok"
+      ],
+      "auteur": "Jonathan Noble",
+      "type_auteur": "outil",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "web",
+      "ajoute_le": "2026-11-05"
+    },
+    {
+      "id": "c8ceedb4bd61",
+      "url": "https://fr.linkedin.com/posts/mathis-faivre-2b2989252_cest-officiel-jai-mis-tout-notre-cerveau-activity-7523632910860484609-PG8Z",
+      "titre": "Système d'expertise Meta Ads offert pour Claude AI",
+      "resume": "Un prompt/système complet à importer dans Claude pour vous assister sur la stratégie et la création Meta Ads. Utile pour générer rapidement des angles, briefs et optimiser ses campagnes.",
+      "categorie": "IA & outils",
+      "tags": [
+        "meta ads",
+        "claude ai",
+        "prompts",
+        "briefs créatifs"
+      ],
+      "auteur": "Mathis Faivre",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-05"
+    },
+    {
+      "id": "ef8bcbe97928",
+      "url": "https://theophileburnet.substack.com/p/skill-claude-alex-hormozi",
+      "titre": "Assistants IA Alex Hormozi : $100M Offers & $100M Leads",
+      "resume": "Fichier de prompts et bibliothèque organisée pour Claude IA déclinant les méthodes, scripts mot à mot et frameworks d'Alex Hormozi. Idéal pour structurer des offres irrésistibles, des hooks et des briefs d'acquisition.",
+      "categorie": "IA & outils",
+      "tags": [
+        "alex hormozi",
+        "prompts ia",
+        "copywriting",
+        "frameworks",
+        "lead magnets"
+      ],
+      "auteur": "Théophile Burnet",
+      "type_auteur": "freelance",
+      "domaine": "theophileburnet.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-11-05"
+    },
+    {
       "id": "6d786233a922",
       "url": "https://fr.linkedin.com/posts/enis-o-6ab3a4207_ne-cr%C3%A9e-jamais-une-nouvelle-audience-juste-activity-7520386318242091008--Y9f",
       "titre": "Matrice de 12 combinaisons créatives pour Social Ads",
@@ -3075,7 +3140,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-04T00:39:13+00:00",
+  "mis_a_jour_le": "2026-11-05T00:55:36+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
