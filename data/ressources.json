@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "27c63daf038f",
+      "url": "https://www.kolsquare.com/fr/etudes-et-livres-blancs/budget-report-2027-marketing-influence",
+      "titre": "Budget Report 2027 : marketing d’influence, coûts et benchmarks",
+      "resume": "Un rapport complet analysant l'évolution des tarifs des créateurs de contenu et des coûts Meta en France. Il propose des benchmarks et une grille de valeur pour structurer vos budgets d'influence et d'UGC.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "marketing d'influence",
+        "UGC",
+        "benchmarks",
+        "budget publicitaire",
+        "social ads"
+      ],
+      "auteur": "Kolsquare",
+      "type_auteur": "outil",
+      "domaine": "kolsquare.com",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-11-08"
+    },
+    {
       "id": "52522f2a0207",
       "url": "https://www.linkedin.com/posts/marghiand_wispr-flow-launches-500-to-700-ugc-ads-a-activity-7516549443404439553-TML3",
       "titre": "Playbook pour scaler et automatiser ses publicités UGC",
@@ -3162,7 +3184,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-07T23:40:00+00:00",
+  "mis_a_jour_le": "2026-11-08T23:46:29+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
