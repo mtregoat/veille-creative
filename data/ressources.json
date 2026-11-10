@@ -1,6 +1,115 @@
 {
   "items": [
     {
+      "id": "d1245b0193ef",
+      "url": "https://dompteursdalgo.substack.com/p/audit-meta-le-template-ultime",
+      "titre": "Template ultime d'audit Meta Ads",
+      "resume": "Un template d'audit Meta complet couvrant l'analyse des KPIs, des audiences et des variations de hooks. Permet d'évaluer la performance de ses créatives et d'isoler les accroches qui génèrent du CTR.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "meta ads",
+        "audit ads",
+        "template",
+        "hooks",
+        "performance créative"
+      ],
+      "auteur": "Les dompteurs d'algo",
+      "type_auteur": "agence",
+      "domaine": "dompteursdalgo.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "exploration",
+      "ajoute_le": "2026-11-10"
+    },
+    {
+      "id": "d6f2de189f97",
+      "url": "https://fr.linkedin.com/posts/laila-zahidi-creativestrategist-ugc_je-suis-cr%C3%A9ative-strat%C3%A9giste-mais-aussi-cr%C3%A9atrice-activity-7523286119912865792-fn9T",
+      "titre": "Modèle et trame de Brief UGC gratuit",
+      "resume": "Un outil et modèle de brief UGC structuré pour guider les créateurs de contenu vidéo. Permet aux creative strategists de mieux cadrer la production de vidéos UGC pour les social ads.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief UGC",
+        "script vidéo",
+        "création publicitaire",
+        "UGC",
+        "stratégie créative"
+      ],
+      "auteur": "Laïla Zahidi",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-10"
+    },
+    {
+      "id": "ccbc981e3853",
+      "url": "https://jupitrr.com/fr/tools/ai-hook-generator",
+      "titre": "Générateur d’accroches vidéo IA gratuit par Jupitrr",
+      "resume": "Un mini-outil en ligne gratuit qui génère 8 propositions de hooks adaptées aux formats courts (TikTok, Reels, Shorts) à partir d'un sujet. Idéal pour trouver rapidement des accroches et ouvertures de scripts pour des vidéos publicitaires ou organiques.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "générateur de hooks",
+        "accroches vidéo",
+        "tiktok",
+        "reels",
+        "copywriting"
+      ],
+      "auteur": "Jupitrr",
+      "type_auteur": "outil",
+      "domaine": "jupitrr.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "boule de neige",
+      "ajoute_le": "2026-11-10"
+    },
+    {
+      "id": "7612505d9405",
+      "url": "https://jupitrr.com/fr/tools/tiktok-script-generator",
+      "titre": "Générateur de Scripts TikTok Gratuit",
+      "resume": "Un outil web gratuit qui génère des scripts vidéo TikTok de 30 à 60 secondes avec accroches parlées et incrustations visuelles. Idéal pour rédiger rapidement des scripts UGC et tester des accroches vidéo.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "script TikTok",
+        "hooks vidéo",
+        "TikTok Ads",
+        "générateur de script",
+        "UGC"
+      ],
+      "auteur": "Jupitrr",
+      "type_auteur": "outil",
+      "domaine": "jupitrr.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "web",
+      "ajoute_le": "2026-11-10"
+    },
+    {
+      "id": "35dd6898d2ed",
+      "url": "https://www.linkedin.com/posts/muiztariq_breaking-early-black-friday-ads-are-already-activity-7523749342248185858-3u8t",
+      "titre": "Swipe file de 55 publicités Black Friday",
+      "resume": "Un swipe file regroupant 55 publicités Black Friday analysées visuel par visuel, issues de grandes marques e-commerce. Idéal pour benchmarker les accroches et concepts gagnants de fin d'année.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "black friday",
+        "swipe file",
+        "social ads",
+        "inspiration pub"
+      ],
+      "auteur": "Muiz Tariq",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-10"
+    },
+    {
       "id": "27c63daf038f",
       "url": "https://www.kolsquare.com/fr/etudes-et-livres-blancs/budget-report-2027-marketing-influence",
       "titre": "Budget Report 2027 : marketing d’influence, coûts et benchmarks",
@@ -3184,7 +3293,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-08T23:46:29+00:00",
+  "mis_a_jour_le": "2026-11-10T02:45:51+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
