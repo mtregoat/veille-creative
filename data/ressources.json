@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "5717d6329910",
+      "url": "https://fr.linkedin.com/posts/jessie-rakotoarimalala-703779157_jour-1130-arr%C3%AAte-de-vendre-tout-le-temps-activity-7515260405989007360-XG1v",
+      "titre": "30 exemples de hooks pour vos accroches publicitaires et sociales",
+      "resume": "Une sélection de 30 formules d'accroches pour captiver l'audience dès les premières secondes. Pratique pour rédiger des hooks de vidéos UGC ou de posts sponsorisés.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks",
+        "accroches",
+        "copywriting",
+        "social ads"
+      ],
+      "auteur": "Jessie Rakotoarimalala",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "3d841c5590f6",
+      "url": "https://marxx.ai/templates",
+      "titre": "Modèles gratuits de briefs publicitaires, scripts, hooks et rapports",
+      "resume": "Une bibliothèque regroupant plus de 110 modèles à copier de briefs créatifs, scripts d'annonces, listes d'accroches et personas. Un kit indispensable pour structurer la production de créas Meta et Google Ads.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "script publicitaire",
+        "hooks",
+        "template",
+        "creative testing"
+      ],
+      "auteur": "Marxx",
+      "type_auteur": "outil",
+      "domaine": "marxx.ai",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "867ee1e9f7cd",
+      "url": "https://www.linkedin.com/posts/tim-keen_i-captured-11734-landing-pages-that-b2b-activity-7524846125913309184-KEyB",
+      "titre": "Swipe file de 11 734 landing pages B2B et leurs publicités",
+      "resume": "Une base de données interactive et un swipe file éditable regroupant près de 12 000 landing pages reliées aux publicités d'origine. Permet d'étudier l'alignement entre le message publicitaire et la page d'atterrissage.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "landing page",
+        "social ads",
+        "publicité B2B",
+        "créa pub"
+      ],
+      "auteur": "Tim Keen",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-11"
+    },
+    {
       "id": "d1245b0193ef",
       "url": "https://dompteursdalgo.substack.com/p/audit-meta-le-template-ultime",
       "titre": "Template ultime d'audit Meta Ads",
@@ -3293,7 +3358,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-10T02:45:51+00:00",
+  "mis_a_jour_le": "2026-11-11T00:41:49+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
