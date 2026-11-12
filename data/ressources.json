@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "3137e88d0040",
+      "url": "https://hypeo.ai/fr/influence-report-maroc-2026-2027",
+      "titre": "The Influence Report Maroc 2026/2027",
+      "resume": "Un rapport gratuit de 41 pages décryptant les chiffres et tendances du marketing d'influence et de la portée publicitaire sur les réseaux sociaux. Utile pour adapter ses stratégies de contenus et partenariats créatifs.",
+      "categorie": "Tendances marketing & social",
+      "tags": [
+        "marketing d'influence",
+        "rapport de tendances",
+        "social media",
+        "tiktok",
+        "créateurs"
+      ],
+      "auteur": "HYPEO AI",
+      "type_auteur": "outil",
+      "domaine": "hypeo.ai",
+      "langue": "fr",
+      "acces": "email",
+      "pertinence": 7,
+      "source": "web",
+      "ajoute_le": "2026-11-12"
+    },
+    {
       "id": "5717d6329910",
       "url": "https://fr.linkedin.com/posts/jessie-rakotoarimalala-703779157_jour-1130-arr%C3%AAte-de-vendre-tout-le-temps-activity-7515260405989007360-XG1v",
       "titre": "30 exemples de hooks pour vos accroches publicitaires et sociales",
@@ -3358,7 +3380,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-11T00:41:49+00:00",
+  "mis_a_jour_le": "2026-11-12T01:55:34+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
