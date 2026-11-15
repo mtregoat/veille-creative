@@ -1,6 +1,116 @@
 {
   "items": [
     {
+      "id": "3b4228d54522",
+      "url": "https://fr.linkedin.com/posts/clement-predo_breaking-claude-g%C3%A9n%C3%A8re-d%C3%A9sormais-des-activity-7520446819852591104-7DD4",
+      "titre": "Kit de hooks et prompts Claude pour la création publicitaire",
+      "resume": "Ressource offerte en commentaire LinkedIn comprenant des hooks et des configurations Claude IA pour accélérer la conception de créas pub.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks",
+        "claude ia",
+        "social ads",
+        "prompts",
+        "copywriting"
+      ],
+      "auteur": "Clément Predo",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-14"
+    },
+    {
+      "id": "cde559d11808",
+      "url": "https://fr.linkedin.com/posts/maxencetison_claude-peut-maintenant-te-sortir-une-campagne-activity-7524011591852367872-hEZf",
+      "titre": "Prompt Claude pour générer une campagne publicitaire complète (IA & UGC)",
+      "resume": "Prompt complet gratuit permettant de transformer une simple photo produit en campagne pub (shooting mannequin, vidéo cinéma, UGC IA). Utile pour concevoir et tester rapidement des variations créatives sur les réseaux sociaux.",
+      "categorie": "IA & outils",
+      "tags": [
+        "prompt IA",
+        "claude",
+        "arcads",
+        "ugc",
+        "création publicitaire"
+      ],
+      "auteur": "Maxence Tison",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-14"
+    },
+    {
+      "id": "2ebd9658ebb5",
+      "url": "https://fr.linkedin.com/posts/ludovicroux_googleads-ia-acquisition-activity-7520797163111649281-Bljt",
+      "titre": "Checklist des garde-fous IA pour la réécriture d'annonces publicitaires",
+      "resume": "Une checklist pratique pour cadrer et sécuriser la réécriture d'annonces par une IA sans détériorer les performances. Utile pour contrôler la qualité du copywriting de ses publicités.",
+      "categorie": "Copywriting",
+      "tags": [
+        "copywriting",
+        "IA",
+        "annonces publicitaires",
+        "checklist",
+        "rédaction"
+      ],
+      "auteur": "Ludovic Henri Roux",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-14"
+    },
+    {
+      "id": "48ca43e9137a",
+      "url": "https://vookmedia.framer.website/resources/ugc-marketing-guide",
+      "titre": "The UGC Marketing Guide",
+      "resume": "Guide PDF de 10 pages structuré en 6 chapitres pour concevoir, briefer et tester des publicités UGC. Indispensable pour rédiger des briefs créatifs et structurer le creative testing.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "UGC",
+        "hooks",
+        "creative brief",
+        "creative testing",
+        "guide PDF"
+      ],
+      "auteur": "Vook",
+      "type_auteur": "agence",
+      "domaine": "vookmedia.framer.website",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-11-14"
+    },
+    {
+      "id": "e8117a4095e8",
+      "url": "https://techdella.com/resources/paid-ads-creative-brief-template",
+      "titre": "Paid Ads Creative Brief Template (PDF)",
+      "resume": "Un template de brief créatif de 10 pages en PDF pour concevoir et tester des publicités sur Meta, TikTok et LinkedIn. Il inclut une structure de message, un plan de test créatif et les spécifications de formats.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "brief créatif",
+        "paid ads",
+        "template PDF",
+        "creative testing",
+        "social ads"
+      ],
+      "auteur": "TechDella",
+      "type_auteur": "agence",
+      "domaine": "techdella.com",
+      "langue": "en",
+      "acces": "email",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-11-14"
+    },
+    {
       "id": "6670ffa62cf5",
       "url": "https://gamma.app/docs/Le-Guide-Ultime-du-Createurtrice-UGC-2025-x8hg6hu8xcwasgt",
       "titre": "Le Guide Ultime du Créateur/trice UGC 2025",
@@ -3401,7 +3511,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-14T00:54:56+00:00",
+  "mis_a_jour_le": "2026-11-14T23:57:45+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
