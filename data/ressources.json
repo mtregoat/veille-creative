@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "id": "edf900f67aa9",
+      "url": "https://www.linkedin.com/posts/jessicamalnik_i-cannot-stop-thinking-about-ai-ugc-ads-activity-7513484514963124224-iryX",
+      "titre": "Kit gratuit de production de publicités UGC par IA",
+      "resume": "Un kit complet associant prompts Claude, structures Wireflow et rendu vidéo Seedance 2.0 pour automatiser la génération d'annonces UGC. Il permet de transformer une simple photo produit en plusieurs déclinaisons vidéo prêtes à tester.",
+      "categorie": "IA & outils",
+      "tags": [
+        "ia",
+        "ugc",
+        "prompts",
+        "workflow creatif",
+        "social ads"
+      ],
+      "auteur": "Jessica Malnik",
+      "type_auteur": "freelance",
+      "domaine": "linkedin.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-17"
+    },
+    {
+      "id": "f81990f1be03",
+      "url": "https://www.notion.com/templates/swipe-file",
+      "titre": "Template Notion : Swipe file de publicités, hooks et copywriting",
+      "resume": "Un template Notion gratuit centralisant banque de hooks, ad library et exemples de copy. Il permet de classer ses inspirations pub par canal et par étape du funnel pour accélérer la conception créative.",
+      "categorie": "Copywriting",
+      "tags": [
+        "template notion",
+        "swipe file",
+        "hooks",
+        "copywriting",
+        "social ads"
+      ],
+      "auteur": "Magnet Creative Studio",
+      "type_auteur": "agence",
+      "domaine": "notion.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-11-17"
+    },
+    {
+      "id": "eccc317ed78a",
+      "url": "https://therohitkumar.substack.com/p/master-static-ad-repository",
+      "titre": "Master Static Ad Repository : Banque de 500+ créas statiques et templates Figma",
+      "resume": "Une immense collection gratuite de plus de 500 publicités statiques (Google Sheet), 15 templates Figma prêts à l'emploi et des boards d'inspiration par secteur. Idéal pour trouver des concepts visuels et concevoir des briefs créatifs rapidement.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "swipe file",
+        "publicité statique",
+        "templates figma",
+        "inspiration créative",
+        "meta ads"
+      ],
+      "auteur": "Rohit Kumar",
+      "type_auteur": "freelance",
+      "domaine": "therohitkumar.substack.com",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-11-17"
+    },
+    {
+      "id": "818af73583fc",
+      "url": "https://thesocialadz.notion.site/Top-9-Creatives-for-Beauty-Brands-68ff6e0d7faf4c1dabfe1f3555d83b04",
+      "titre": "Top 9 des Concepts Créatifs Ads pour Marques Beauté",
+      "resume": "Un document Notion partagé par l'agence The Social Adz détaillant 9 formats et angles gagnants pour le secteur beauté (mashups, avant/après, visuels statiques). Permet de dupliquer des concepts éprouvés pour ses campagnes E-commerce.",
+      "categorie": "Angles & concepts",
+      "tags": [
+        "beauté",
+        "concepts créatifs",
+        "swipe file",
+        "social ads",
+        "e-commerce"
+      ],
+      "auteur": "The Social Adz",
+      "type_auteur": "agence",
+      "domaine": "thesocialadz.notion.site",
+      "langue": "en",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "boule de neige",
+      "ajoute_le": "2026-11-17"
+    },
+    {
       "id": "3b4228d54522",
       "url": "https://fr.linkedin.com/posts/clement-predo_breaking-claude-g%C3%A9n%C3%A8re-d%C3%A9sormais-des-activity-7520446819852591104-7DD4",
       "titre": "Kit de hooks et prompts Claude pour la création publicitaire",
@@ -3511,7 +3599,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-15T23:59:21+00:00",
+  "mis_a_jour_le": "2026-11-17T02:58:15+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
