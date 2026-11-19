@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "id": "3c0abf8eb71a",
+      "url": "https://dhsdigital.substack.com/p/104-notre-agence-code-ses-propres",
+      "titre": "Calculateur de volume créatif & Self-audit Meta Ads",
+      "resume": "Kit offert par une agence social ads comprenant un calculateur pour dimensionner ses besoins en créas et une grille d'audit Meta Ads. Indispensable pour piloter la production créative d'un compte publicitaire.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "meta ads",
+        "volume créatif",
+        "audit ads",
+        "agence",
+        "growth"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "dhsdigital.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "recherche",
+      "ajoute_le": "2026-11-19"
+    },
+    {
+      "id": "ff112efd8b90",
+      "url": "https://www.creatorsjet.com/fr/blog/brief-influenceur",
+      "titre": "Brief influenceur : modèle gratuit et exemple",
+      "resume": "Un modèle de brief prêt à copier pour structurer les campagnes d'influence ou de production UGC. Permet de définir facilement les consignes créatives, livrables et contraintes légales avant tournage.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "brief influenceur",
+        "UGC",
+        "template gratuit",
+        "création vidéo",
+        "brief créatif"
+      ],
+      "auteur": "CreatorsJet",
+      "type_auteur": "outil",
+      "domaine": "creatorsjet.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "web",
+      "ajoute_le": "2026-11-19"
+    },
+    {
+      "id": "60cb55ecccab",
+      "url": "https://leadsstudio.substack.com/p/tu-es-consultant-paid-media-et-tu",
+      "titre": "Modèle d'alignement angles marketing & landing pages",
+      "resume": "Framework stratégique pour concevoir des landing pages orientées conversion à partir d'angles marketing et de psychologie client. Permet d'assurer la continuité créative entre l'annonce publicitaire et la page d'atterrissage.",
+      "categorie": "Copywriting",
+      "tags": [
+        "landing page",
+        "angles marketing",
+        "copywriting",
+        "conversion",
+        "paid media"
+      ],
+      "auteur": "Leads Studio",
+      "type_auteur": "agence",
+      "domaine": "leadsstudio.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-11-19"
+    },
+    {
+      "id": "f2219bc8e1ac",
+      "url": "https://dhsdigital.substack.com/p/86-comment-calculer-votre-ncac-cible",
+      "titre": "Template de calcul nCAC, budget ads et marges",
+      "resume": "Tableau de bord offert par une agence growth pour définir son nCAC cible et son budget pub à partir de ses marges. Pratique pour aligner la stratégie média sur la rentabilité créative.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "budget ads",
+        "ncac",
+        "calculateur",
+        "growth",
+        "agence"
+      ],
+      "auteur": "DHS Digital",
+      "type_auteur": "agence",
+      "domaine": "dhsdigital.substack.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 7,
+      "source": "recherche",
+      "ajoute_le": "2026-11-19"
+    },
+    {
       "id": "edf900f67aa9",
       "url": "https://www.linkedin.com/posts/jessicamalnik_i-cannot-stop-thinking-about-ai-ugc-ads-activity-7513484514963124224-iryX",
       "titre": "Kit gratuit de production de publicités UGC par IA",
@@ -3599,7 +3687,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-18T02:27:46+00:00",
+  "mis_a_jour_le": "2026-11-19T01:53:57+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
