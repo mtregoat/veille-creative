@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "b2d2d201813d",
+      "url": "https://fr.linkedin.com/pulse/performance-cr%C3%A9ative-5-%C3%A9tapes-pour-transformer-vos-contenus-en-sufze",
+      "titre": "Guide de la Performance Créative : 5 étapes pour structurer vos contenus",
+      "resume": "Un guide complet téléchargeable pour évaluer sa maturité créative et structurer ses processus de production publicitaire. Très utile pour auditer ses assets et optimiser l'efficacité de ses créas social ads.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "performance créative",
+        "stratégie créative",
+        "social ads",
+        "audit créatif",
+        "guide"
+      ],
+      "auteur": "",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-20"
+    },
+    {
       "id": "3c0abf8eb71a",
       "url": "https://dhsdigital.substack.com/p/104-notre-agence-code-ses-propres",
       "titre": "Calculateur de volume créatif & Self-audit Meta Ads",
@@ -3687,7 +3709,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-19T01:53:57+00:00",
+  "mis_a_jour_le": "2026-11-20T01:47:25+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
