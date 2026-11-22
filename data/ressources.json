@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "c386388f7ea6",
+      "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_statiques-12-formats-6-axes-activity-7520764033533325312-N7Z0",
+      "titre": "Framework statiques : 12 formats et 6 axes créatifs",
+      "resume": "Un framework complet présentant 12 formats visuels statiques et 6 axes d'angles publicitaires. Indispensable aux creative strategists pour varier les concepts et structurer le creative testing.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "formats pub",
+        "créas statiques",
+        "framework créatif",
+        "social ads",
+        "creative testing"
+      ],
+      "auteur": "Danilo Mura Duchesnes",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 9,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-22"
+    },
+    {
       "id": "b2d2d201813d",
       "url": "https://fr.linkedin.com/pulse/performance-cr%C3%A9ative-5-%C3%A9tapes-pour-transformer-vos-contenus-en-sufze",
       "titre": "Guide de la Performance Créative : 5 étapes pour structurer vos contenus",
@@ -3709,7 +3731,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-21T01:34:48+00:00",
+  "mis_a_jour_le": "2026-11-22T00:23:19+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
