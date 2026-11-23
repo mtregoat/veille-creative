@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "110ea8845568",
+      "url": "https://fr.linkedin.com/posts/ramzib_claude-opus-55-donne-aujourdhui-la-possibilit%C3%A9-activity-7529829851105705984-GNgS",
+      "titre": "Méthode exacte : 5 styles motion & 5 formats de test d'angles",
+      "resume": "Ressource gratuite détaillant une méthode pour concevoir 5 styles de vidéos en motion design et 5 formats de contenus pour tester plusieurs angles publicitaires. Très pratique pour guider la production et le creative testing vidéo.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "motion design",
+        "formats vidéo",
+        "angles créatifs",
+        "creative testing",
+        "social ads"
+      ],
+      "auteur": "Ramzi B.",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-23"
+    },
+    {
       "id": "c386388f7ea6",
       "url": "https://fr.linkedin.com/posts/danilomuraduchesnes_statiques-12-formats-6-axes-activity-7520764033533325312-N7Z0",
       "titre": "Framework statiques : 12 formats et 6 axes créatifs",
@@ -3731,7 +3753,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-22T00:23:19+00:00",
+  "mis_a_jour_le": "2026-11-23T00:56:14+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
