@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "id": "318086dcfb09",
+      "url": "https://www.linkedin.com/posts/cameron-zouari-220944234_ce-que-67000pubs-meta-mont-appris-sur-activity-7524477853418037249-dmK3",
+      "titre": "Rapport d'enseignements sur 67 000 publicités Meta",
+      "resume": "Un condensé des apprentissages clés tirés de l'analyse de 67 000 créatives Meta Ads. Inestimable pour orienter son creative testing et ses briefs publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "meta ads",
+        "creative testing",
+        "social ads",
+        "creative strategy"
+      ],
+      "auteur": "Cameron Zouari",
+      "type_auteur": "agence",
+      "domaine": "linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 9,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-24"
+    },
+    {
+      "id": "67cc48fc61f8",
+      "url": "https://fr.linkedin.com/posts/clementgerardin_tes-3-premi%C3%A8res-secondes-donnent-envie-de-activity-7525810887409033216-CGeR",
+      "titre": "Banque de hooks personnalisables par secteur",
+      "resume": "Une liste d'accroches scénarisées (dont le hook de curiosité contredisant une idée reçue) à adapter selon sa niche. Très utile pour rédiger les 3 premières secondes des scripts vidéo.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks",
+        "copywriting",
+        "scripts vidéo",
+        "social ads"
+      ],
+      "auteur": "Clément Gerardin",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 8,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-24"
+    },
+    {
+      "id": "f7f5b3f4c263",
+      "url": "https://fr.linkedin.com/posts/jenniarakotondrainy_25-hooks-pour-plus-dengagement-activity-7523980642905223168-WjrF",
+      "titre": "Swipe file de 25 hooks pour booster l'engagement",
+      "resume": "Une sélection de 25 idées d'accroches pour capter l'attention dès les premières secondes. Idéal pour alimenter la rédaction des accroches de vos publicités vidéo.",
+      "categorie": "Hooks & accroches",
+      "tags": [
+        "hooks",
+        "accroches",
+        "social ads",
+        "engagement"
+      ],
+      "auteur": "Jennia Rakotondrainy",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-24"
+    },
+    {
+      "id": "45f90a6e9ee8",
+      "url": "https://fr.linkedin.com/posts/jonathanlamarca_jen-avais-un-peu-marre-des-groupes-whatsapp-activity-7528010464220422144-Yawk",
+      "titre": "Guide des hooks et formats vidéo performants",
+      "resume": "Une analyse identifiant les accroches efficaces et les formats vidéo ignorés par l'audience. Pratique pour guider la direction créative et éviter les formats inefficaces.",
+      "categorie": "Créas & formats pub",
+      "tags": [
+        "hooks",
+        "formats vidéo",
+        "creative strategy",
+        "performance"
+      ],
+      "auteur": "Jonathan La Marca",
+      "type_auteur": "freelance",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-24"
+    },
+    {
       "id": "110ea8845568",
       "url": "https://fr.linkedin.com/posts/ramzib_claude-opus-55-donne-aujourdhui-la-possibilit%C3%A9-activity-7529829851105705984-GNgS",
       "titre": "Méthode exacte : 5 styles motion & 5 formats de test d'angles",
@@ -3753,7 +3837,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-23T00:56:14+00:00",
+  "mis_a_jour_le": "2026-11-24T04:49:35+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
