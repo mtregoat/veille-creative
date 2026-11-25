@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "42d65c0866dd",
+      "url": "https://docs.google.com/document/d/1jTwaBtE_eQjlNlolo0V4JK-hx6_7DGzgL6L25xzNUCY/edit",
+      "titre": "Guide et stratégie Facebook Ads pour l'acquisition de prospects",
+      "resume": "Document de travail incluant un guide pour interpréter les métriques Facebook Ads, des règles de creative testing (4 visuels par audience) et le pilotage de l'incubation. Directement exploitable pour tester et optimiser des créations publicitaires.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "facebook ads",
+        "creative testing",
+        "visuels",
+        "stratégie pub",
+        "optimisation"
+      ],
+      "auteur": "",
+      "type_auteur": "freelance",
+      "domaine": "docs.google.com",
+      "langue": "fr",
+      "acces": "libre",
+      "pertinence": 8,
+      "source": "recherche",
+      "ajoute_le": "2026-11-25"
+    },
+    {
+      "id": "a9348766daa5",
+      "url": "https://fr.linkedin.com/posts/esther-baron-chromae_%3F%3F-%3F%3F%3F%3F%3F%3F-%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F-activity-7528063852392062976-jPrm",
+      "titre": "Méthode d'organisation des idées créatives",
+      "resume": "Ressource offerte en commentaire pour structurer son idéation et organiser ses idées créatives sans les brider. Utile lors des phases de réflexion conceptuelle.",
+      "categorie": "Stratégie créative & briefs",
+      "tags": [
+        "idéation",
+        "méthodologie",
+        "créativité",
+        "brainstorming"
+      ],
+      "auteur": "Chromae",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 7,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-25"
+    },
+    {
       "id": "318086dcfb09",
       "url": "https://www.linkedin.com/posts/cameron-zouari-220944234_ce-que-67000pubs-meta-mont-appris-sur-activity-7524477853418037249-dmK3",
       "titre": "Rapport d'enseignements sur 67 000 publicités Meta",
@@ -3837,7 +3880,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-24T04:49:35+00:00",
+  "mis_a_jour_le": "2026-11-25T03:34:24+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
