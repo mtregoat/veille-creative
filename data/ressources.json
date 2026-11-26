@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "id": "147565a7184c",
+      "url": "https://fr.linkedin.com/posts/th%C3%A9o-rossi_jai-command%C3%A9-15-vsl-%C3%A0-un-copywriter-de-mon-activity-7520469625738792960-3Ea5",
+      "titre": "Méthode d'écriture de VSL et 5 tests d'angles publicitaires",
+      "resume": "Une vidéo explicative et une étude de cas pas-à-pas pour concevoir une VSL (Video Sales Letter), trouver sa Big Idea et décliner des variations d'accroches. Idéal pour rédiger et tester des scripts vidéo à fort taux de conversion.",
+      "categorie": "UGC & vidéo",
+      "tags": [
+        "VSL",
+        "script vidéo",
+        "copywriting",
+        "angles créatifs",
+        "creative testing"
+      ],
+      "auteur": "Théo Rossi",
+      "type_auteur": "agence",
+      "domaine": "fr.linkedin.com",
+      "langue": "fr",
+      "acces": "commentaire",
+      "pertinence": 9,
+      "source": "linkedin",
+      "ajoute_le": "2026-11-26"
+    },
+    {
       "id": "42d65c0866dd",
       "url": "https://docs.google.com/document/d/1jTwaBtE_eQjlNlolo0V4JK-hx6_7DGzgL6L25xzNUCY/edit",
       "titre": "Guide et stratégie Facebook Ads pour l'acquisition de prospects",
@@ -3880,7 +3902,7 @@
       "langue": "en"
     }
   ],
-  "mis_a_jour_le": "2026-11-25T03:34:24+00:00",
+  "mis_a_jour_le": "2026-11-26T02:53:13+00:00",
   "site": {
     "titre": "Veille Créative",
     "sous_titre": "Les lead magnets des agences : guides, templates, swipe files, banques de hooks et rapports gratuits pour la pub sur les réseaux. Actualisé chaque jour.",
